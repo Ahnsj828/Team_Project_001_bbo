@@ -210,3 +210,27 @@ window.addEventListener("scroll", () => {
     addtocart.style.bottom = "10px";
   }
 });
+//
+//
+//
+//
+// < foundation_page_(max-width: 1024px)_main_slide >
+let currentIndex = 0;
+
+function switchSlide() {
+  const slides = document.querySelectorAll('.slide');
+  currentIndex = (currentIndex + 1) % slides.length;
+
+  slides.forEach((slide, index) => {
+    slide.style.transform = `translateX(-${currentIndex * 100}%)`;
+  });
+
+  const slideBar = document.querySelector('.slide-bar');
+  if (currentIndex === 0) {
+    slideBar.style.transform = 'translateX(0)';
+  } else {
+    slideBar.style.transform = 'translateX(100%)';
+  }
+}
+
+setInterval(switchSlide, 3000);
