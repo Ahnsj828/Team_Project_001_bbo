@@ -213,7 +213,6 @@ window.addEventListener("scroll", () => {
 //
 //
 //
-//
 // < foundation_page_(max-width: 1024px)_main_slide >
 let currentIndex = 0;
 
@@ -238,10 +237,10 @@ setInterval(switchSlide, 3000);
 //
 //
 //
-//
+//  << foundation-nav-tabs - 마우스 스크롤시 헤더 밑에 fix >>
 document.addEventListener('DOMContentLoaded', function() {
   const navTabs = document.querySelector('.foundation-nav-tabs');
-  const navTabsOffsetTop = navTabs.offsetTop; // nav-tabs의 초기 위치를 저장
+  const navTabsOffsetTop = navTabs.offsetTop;
   const header = document.querySelector('.common-header');
 
   function checkScroll() {
@@ -251,8 +250,19 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
       navTabs.classList.remove('fixed-nav-tabs');
     }
+    
+    const isFixed = navTabs.classList.contains('fixed-nav-tabs');
+    if (isFixed) {
+      // navTabs가 fixed 상태일 때만 스타일을 추가 또는 수정
+      // 예시로 추가한 클래스 'nav-tabs-fixed-style'을 적용
+      navTabs.classList.add('nav-tabs-fixed-style');
+    } else {
+      // fixed 상태가 아닐 때는 스타일을 제거
+      navTabs.classList.remove('nav-tabs-fixed-style');
+    }
   }
 
   window.addEventListener('scroll', checkScroll);
 });
+
 

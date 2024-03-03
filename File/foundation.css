@@ -1216,14 +1216,19 @@ body {
       }
     }
     .fixed-nav-tabs {
-      position: fixed;
       top: 100px; /* common-header의 높이에 따라 조정 */
       width: 100%;
-      z-index: 1000;
-      background-color: #fff; /* 배경색, 필요에 따라 조정 */
+      position: fixed;
+      z-index: 900;
       box-shadow: 0 2px 5px rgba(0,0,0,.2); /* 선택적으로 그림자 추가 */
     }
-
+    .nav-tabs-fixed-style {
+      background-color: #f5e2e2; /* 변경할 배경색 */
+      width: 470.98px;
+      border-radius: 235.49px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
 }
 
