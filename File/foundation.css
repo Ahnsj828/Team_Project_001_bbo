@@ -1232,6 +1232,7 @@ body {
   }
 }
 
+/* header 완성되면 nav 변경하기 */
   /*-------- 1024px -------- */
   @media screen and (max-width: 1024px) {
 .common-header {
@@ -1375,6 +1376,10 @@ body {
           }
         }
       }
+    }
+    .foundation-nav {
+      display: none;
+      /* header 완성되면 변경하기 */
     }
   }
 }
