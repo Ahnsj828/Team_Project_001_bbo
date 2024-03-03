@@ -43,7 +43,7 @@ body {
   header.active {
     background-color: rgba(255, 255, 255, 0.7);
   }
-  
+
   header.common-toggle-active {
     background-color: rgba(242, 198, 207, 0);
   }
@@ -141,7 +141,7 @@ body {
   }
   .common-search-btn i {
     /*Main제외하고 display none*/
-  
+
     display: flex;
     text-align: center;
     font-size: 25px;
@@ -156,7 +156,7 @@ body {
     align-items: center;
     cursor: pointer;
   }
-  
+
   .common-toggle-btn span {
     position: absolute;
     top: 0%;
@@ -226,7 +226,7 @@ body {
   .common-brand-hover {
     border: 1px solid transparent;
   }
-  
+
   .common-product-hover-menu {
     display: none;
     background: rgba(255, 255, 255, 0.7);
@@ -240,15 +240,15 @@ body {
     display: flex;
     justify-content: center;
     z-index: -1;
-  
+
     transition: all 0.3s;
   }
-  
+
   .common-active-product {
     display: flex;
     opacity: 1;
   }
-  
+
   .common-product-hover-menu-content {
     width: 1420px;
     height: 300px;
@@ -316,7 +316,7 @@ body {
   .common-active-brand {
     opacity: 1;
   }
-  
+
   .common-brand-hover-menu-content {
     width: 1164px;
     height: 88px;
@@ -335,7 +335,7 @@ body {
   .common-makeup-hover.common-makeup-active {
     background: rgba(0, 0, 0, 0);
   }
-  
+
   .common-responsibility-center-menu {
     /*Main말고 다른 페이지에서 display:flex*/
     display: none;
@@ -473,7 +473,7 @@ body {
     margin-right: 22px;
     font-size: 14px;
   }
-  
+
   .common-toggle-btn-click {
     overflow: hidden;
     display: none;
@@ -493,7 +493,7 @@ body {
     font-family: "Noto Sans KR";
     opacity: 1;
   }
-  
+
   .common-btn-list {
     width: 341px;
     /* height: 550px; */
@@ -506,7 +506,7 @@ body {
     gap: 18px;
     position: relative;
   }
-  
+
   .common-toggle-menu span {
     display: block;
     font-size: 30px;
@@ -536,7 +536,7 @@ body {
   .common-toggle-menu-inside a:hover span {
     color: #777;
   }
-  
+
   .common-toggle-menu-inside span {
     height: 40px;
     font-size: 23px;
@@ -553,7 +553,7 @@ body {
     opacity: 1;
     transform: translateY(-16px);
   }
-  
+
   .common-menu02 {
     top: 84px;
   }
@@ -576,7 +576,7 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .common-toggle-menu-inner span {
     font-size: 23px;
     font-weight: lighter;
@@ -585,7 +585,7 @@ body {
     font-size: 23px;
     font-weight: lighter;
   }
-  
+
   .common-toggle-menu-inner span i {
     font-size: 22px;
   }
@@ -624,7 +624,7 @@ body {
     opacity: 0;
     transition: all 0.3s;
   }
-  
+
   .common-category-inner-list a:hover {
     font-weight: bold;
   }
@@ -687,7 +687,7 @@ body {
     width: 343px;
     height: 38px;
   }
-  
+
   .common-brand-store-select {
     display: flex;
     justify-content: first;
@@ -745,7 +745,7 @@ body {
     display: inline-block;
     margin-left: 100px;
   }
-  
+
   .common-store-list div {
     width: 100%;
     height: 40px;
@@ -811,7 +811,7 @@ body {
   #common-addtocart.active {
     right: 20px;
   }
-  
+
   /*-------반응형 메뉴버튼 -----------*/
   .common-responsibility-toggle-menu {
     display: block;
@@ -871,7 +871,7 @@ body {
     margin: 14px auto;
     cursor: pointer;
   }
-  
+
   .common-responsibility-search-box-icon-x i {
     position: absolute;
     top: 4px;
@@ -899,7 +899,7 @@ body {
     border-bottom: 2px solid#777;
     color: #777;
   }
-  
+
   .common-responsibility-toggle-menu-inner-title-menu {
     display: block;
     /* menu 다시 활성화 */
@@ -930,7 +930,7 @@ body {
   .common-responsibility-toggle-menu-inner-title-list-cate.active {
     display: block;
   }
-  
+
   .common-responsibility-menu {
     display: flex;
     justify-content: space-between;
@@ -949,7 +949,7 @@ body {
   .common-responsibility-menu-plus span:nth-child(2) {
     transform: rotate(90deg);
   }
-  
+
   .common-responsibility-menu-list {
     width: 100%;
     height: 68px;
@@ -966,7 +966,7 @@ body {
   .common-pro {
     height: 34px;
   }
-  
+
   .common-responsibility-menu-list a {
     display: inline-block;
     width: 28%;
@@ -992,7 +992,7 @@ body {
     font-size: 15px;
     position: relative;
   }
-  
+
   .common-responsibility-menu-plus-cate span {
     border: 1px solid #777;
     width: 8px;
@@ -1041,7 +1041,7 @@ body {
     position: absolute;
     left: 0;
     bottom: 4%;
-  
+
     height: 50px;
     width: 100%;
   }
@@ -1050,7 +1050,7 @@ body {
     position: absolute;
     /* left: 326px; */
     /* left: 18%; */
-  
+
     /* bottom: 220px; */
     left: 5%;
     bottom: 5%;
@@ -1123,7 +1123,7 @@ body {
     display: inline-block;
     margin-left: 100px;
   }
-  
+
   .common-responsibility-store-list div {
     width: 100%;
     height: 40px;
@@ -1163,9 +1163,67 @@ body {
         overflow: hidden;
       }
     }
+    .foundation-bg-1024 {
+      display: none;
+    }
   }
-  .foundation-bg-1024 {
-    display: none;
+  .foundation-nav {
+    width: 100%;
+    height: 59px;
+    .foundation-nav-tabs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: inherit;
+      #foundation-nav-tab1 {
+        padding: 15px 80px;
+        a {
+          position: relative;
+          display: block;
+          padding-bottom: 5px;
+          font: 700 16px/24px "Noto Sans KR", sans-serif;
+          transition: 0.3s;
+          &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background: #333;
+            transition: 0.7s;
+          }
+        }
+      }
+      #foundation-nav-tab2 {
+        padding: 15px 80px;
+        a{
+          position: relative;
+          display: block;
+          padding-bottom: 5px;
+          font: 700 16px/24px "Noto Sans KR", sans-serif;
+          transition: 0.3s;
+          &:hover::after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background: #333;
+            transition: 0.7s;
+          }
+        }
+      }
+    }
+    .fixed-nav-tabs {
+      position: fixed;
+      top: 100px; /* common-header의 높이에 따라 조정 */
+      width: 100%;
+      z-index: 1000;
+      background-color: #fff; /* 배경색, 필요에 따라 조정 */
+      box-shadow: 0 2px 5px rgba(0,0,0,.2); /* 선택적으로 그림자 추가 */
+    }
+
   }
 }
 
@@ -1244,73 +1302,72 @@ body {
     .foundation-bg {
       .foundation-bg-1920 {
         display: none;
-        .foundation-bg {
-        }
       }
-    }
-    .foundation-bg-1024 {
-      /*display: flex;*/
-      /*position: absolute;*/
-      /*width: 100%;*/
-      /*height: 400px;*/
-      /*vertical-align: baseline;*/
-      /*cursor: grab;*/
-      /*overflow: hidden;*/
-      /**/
-      display: flex;
-      position: relative;
-      width: 100%;
-      height: 400px;
-      overflow: hidden;
-      .slide {
-        flex: 0 0 100%;
-        height: 100%;
-        background-size: cover;
-        background-position: center;
-        transition: transform 0.5s ease;
-      }
-      .foundation-bg1 {
-        /*border: 10px solid #0f0;*/
-        background: url("./foundation-image/1-1-slide1.jpeg") no-repeat center center;
-        /*background: url("./foundation-image/1-1-slide1.jpeg") no-repeat center center;*/
-        background-size: cover;
+      .foundation-bg-1024 {
+        /*display: flex;*/
         /*position: absolute;*/
-        /*!* top: 100px; *!*/
-        /*left: 0;*/
-        /*!*width: 1003px;*!*/
-        /*!* width: 100%; *!*/
-        /*width: 995px;*/
+        /*width: 100%;*/
         /*height: 400px;*/
-      }
-      .foundation-bg2 {
-        background: url("./foundation-image/1-1-slide2.jpeg")no-repeat center center;
-        background-size: cover;
-      }
-      .slider-bar-container {
-        position: absolute;
-        bottom: 40px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 80%;
-        height: 9px;
+        /*vertical-align: baseline;*/
+        /*cursor: grab;*/
+        /*overflow: hidden;*/
+        /**/
         display: flex;
-        align-items: center;
-        justify-content: center;
-        .slider-bar-bg {
-          width: 100%;
-          height: 1px;
-          background-color: #ddd;
+        position: relative;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        cursor: grab;
+        .slide {
+          flex: 0 0 100%;
+          height: 100%;
+          background-size: cover;
+          background-position: center;
+          transition: transform 0.5s ease;
         }
-
-        .slide-bar {
+        .foundation-bg1 {
+          /*border: 10px solid #0f0;*/
+          background: url("./foundation-image/1-1-slide1.jpeg") no-repeat center center;
+          /*background: url("./foundation-image/1-1-slide1.jpeg") no-repeat center center;*/
+          background-size: cover;
+          /*position: absolute;*/
+          /*!* top: 100px; *!*/
+          /*left: 0;*/
+          /*!*width: 1003px;*!*/
+          /*!* width: 100%; *!*/
+          /*width: 995px;*/
+          /*height: 400px;*/
+        }
+        .foundation-bg2 {
+          background: url("./foundation-image/1-1-slide2.jpeg")no-repeat center center;
+          background-size: cover;
+        }
+        .slider-bar-container {
           position: absolute;
+          bottom: 40px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 80%;
+          height: 9px;
+          display: flex;
+          align-items: center;
           justify-content: center;
-          /*bottom: 5px; !* 하단에서 40px 위에 위치 *!*/
-          left: 0%; /* 왼쪽에서 50% 위치에 배치 */
-          /*transform: translateX(-50%); !* X축으로 -50% 이동하여 중앙 정렬 *!*/
-          width: 50%; /* 너비 설정 */
-          height: 2px; /* 높이 설정 */
-          background: #FFFFFF; /* 배경색 설정 */
+          .slider-bar-bg {
+            width: 100%;
+            height: 1px;
+            background-color: #ddd;
+          }
+
+          .slide-bar {
+            position: absolute;
+            justify-content: center;
+            /*bottom: 5px; !* 하단에서 40px 위에 위치 *!*/
+            left: 0%; /* 왼쪽에서 50% 위치에 배치 */
+            /*transform: translateX(-50%); !* X축으로 -50% 이동하여 중앙 정렬 *!*/
+            width: 50%; /* 너비 설정 */
+            height: 2px; /* 높이 설정 */
+            background: #FFFFFF; /* 배경색 설정 */
+          }
         }
       }
     }

@@ -234,3 +234,25 @@ function switchSlide() {
 }
 
 setInterval(switchSlide, 3000);
+//
+//
+//
+//
+//
+document.addEventListener('DOMContentLoaded', function() {
+  const navTabs = document.querySelector('.foundation-nav-tabs');
+  const navTabsOffsetTop = navTabs.offsetTop; // nav-tabs의 초기 위치를 저장
+  const header = document.querySelector('.common-header');
+
+  function checkScroll() {
+    if (window.scrollY >= navTabsOffsetTop - header.offsetHeight) {
+      navTabs.classList.add('fixed-nav-tabs');
+      // 여기서 'fixed-nav-tabs' 클래스는 navTabs를 헤더 아래에 고정시키는 스타일을 적용해야 함
+    } else {
+      navTabs.classList.remove('fixed-nav-tabs');
+    }
+  }
+
+  window.addEventListener('scroll', checkScroll);
+});
+
