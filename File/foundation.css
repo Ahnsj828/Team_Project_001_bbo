@@ -1247,6 +1247,7 @@ body {
       /* justify-content: flex-start; */
       align-content: flex-start;
       align-items: flex-start;
+      line-height: 24px;
       margin: 0 30px 0 0;
       .foundation-customized-text1 {
         color: #111;
@@ -1266,6 +1267,7 @@ body {
           color: #333333;
           font: 400 16px/24px "Noto Sans KR", sans-serif;
           letter-spacing: -0.32px;
+          vertical-align: baseline;
         }
       }
     }
@@ -1273,8 +1275,12 @@ body {
       width: 600px;
       padding: 0px 0px 0px 20px;
       .foundation-customized-items {
+        /* align-self: center; */
         /* text-align: left; */
-        .foundation-customized-item1 {
+        .foundation-customized-item1,
+        .foundation-customized-item2,
+        .foundation-customized-item3,
+        .foundation-customized-item4 {
           display: flex;
           padding-bottom: 9px;
           align-items: center;
@@ -1290,34 +1296,43 @@ body {
             }
           }
           .foundation-customized-list {
+            word-break: keep-all;
+            font-size: 17px;
+            line-height: 32px;
             display: flex;
+            padding-left: 5px;
             .foundation-customized-title {
               font: 500 18px/26px "Noto Sans KR", sans-serif;
-              letter-spacing: -0.36px;
+              letter-spacing: -0.02em;
+              word-break: keep-all;
+              vertical-align: baseline;
               color: #111;
               margin-right: 40px;
             }
             .foundation-customized-sub {
               font: 400 16px/23px "Noto Sans KR", sans-serif;
-              letter-spacing: -0.32px;
+              letter-spacing: -0.02em;
+              word-break: keep-all;
+              vertical-align: baseline;
               color: #111;
             }
           }
         }
-        /* 아이콘들 간격 같으면 이거 풀고 통합적용 */
-        /* .foundation-customized-item1,
         .foundation-customized-item2,
-        .foundation-customized-item3,
-        .foundation-customized-item4 {
-          svg {
-            font: 400 14px/-0.28px;
-            line-height: 22.4px;
-            width: 38px;
-            height: 38px;
-            margin: 0 4.75px;
-            color: #777;
+        .foundation-customized-item3 {
+          margin-top: 9px;
+          .foundation-customized-sub2{
+            font: 400 14px/25px "Noto Sans KR", sans-serif;
+              letter-spacing: -0.02em;
+              vertical-align: baseline;
+              color: #777;
+            margin-left: 20px;
           }
-        } */
+        }
+        .foundation-customized-item4 {
+          padding-bottom: 0px;
+          margin-top: 9px;
+        }
       }
     }
   }
