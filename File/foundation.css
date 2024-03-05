@@ -1197,7 +1197,7 @@ body {
       }
       #foundation-nav-tab2 {
         padding: 15px 80px;
-        a{
+        a {
           position: relative;
           display: block;
           padding-bottom: 5px;
@@ -1220,7 +1220,7 @@ body {
       width: 100%;
       position: fixed;
       z-index: 900;
-      box-shadow: 0 2px 5px rgba(0,0,0,.2); /* 선택적으로 그림자 추가 */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 선택적으로 그림자 추가 */
     }
     .nav-tabs-fixed-style {
       background-color: #f5e2e2; /* 변경할 배경색 */
@@ -1231,11 +1231,102 @@ body {
     }
   }
 }
+.foundation-body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 96px;
+  #foundation-customized {
+    display: flex;
+    justify-content: center;
+    max-width: 1420px;
+    margin: 0 241px;
+    padding-bottom: 100px;
+    .foundation-customized-left {
+      width: 361px;
+      /* justify-content: flex-start; */
+      align-content: flex-start;
+      align-items: flex-start;
+      margin: 0 30px 0 0;
+      .foundation-customized-text1 {
+        color: #111;
+        font: 500 32px/51.2px "Noto Sans KR", sans-serif;
+        letter-spacing: -0.64px;
+        /* align-self: center;
+        text-align: left; */
+      }
+      .foundation-customized-text2 {
+        color: #d8a481;
+        font: 700 24px/38.4px "sofia";
+        margin: 0 0 40px 0;
+        /* text-align: left;  */
+      }
+      .foundation-customized-text3 {
+        p {
+          color: #333333;
+          font: 400 16px/24px "Noto Sans KR", sans-serif;
+          letter-spacing: -0.32px;
+        }
+      }
+    }
+    .foundation-customized-right {
+      width: 600px;
+      padding: 0px 0px 0px 20px;
+      .foundation-customized-items {
+        /* text-align: left; */
+        .foundation-customized-item1 {
+          display: flex;
+          padding-bottom: 9px;
+          align-items: center;
+          .foundation-customized-icon {
+            height: 38px;
+            svg {
+              font: 400 14px/-0.28px;
+              line-height: 22.4px;
+              width: 38px;
+              height: 38px;
+              margin: 0 4.75px;
+              color: #777;
+            }
+          }
+          .foundation-customized-list {
+            display: flex;
+            .foundation-customized-title {
+              font: 500 18px/26px "Noto Sans KR", sans-serif;
+              letter-spacing: -0.36px;
+              color: #111;
+              margin-right: 40px;
+            }
+            .foundation-customized-sub {
+              font: 400 16px/23px "Noto Sans KR", sans-serif;
+              letter-spacing: -0.32px;
+              color: #111;
+            }
+          }
+        }
+        /* 아이콘들 간격 같으면 이거 풀고 통합적용 */
+        /* .foundation-customized-item1,
+        .foundation-customized-item2,
+        .foundation-customized-item3,
+        .foundation-customized-item4 {
+          svg {
+            font: 400 14px/-0.28px;
+            line-height: 22.4px;
+            width: 38px;
+            height: 38px;
+            margin: 0 4.75px;
+            color: #777;
+          }
+        } */
+      }
+    }
+  }
+}
 
 /* header 완성되면 nav 변경하기 */
-  /*-------- 1024px -------- */
-  @media screen and (max-width: 1024px) {
-.common-header {
+/*-------- 1024px -------- */
+@media screen and (max-width: 1024px) {
+  .common-header {
     .common-header-wrap {
       height: 50px;
     }
@@ -1333,7 +1424,8 @@ body {
         }
         .foundation-bg1 {
           /*border: 10px solid #0f0;*/
-          background: url("./foundation-image/1-1-slide1.jpeg") no-repeat center center;
+          background: url("./foundation-image/1-1-slide1.jpeg") no-repeat center
+            center;
           /*background: url("./foundation-image/1-1-slide1.jpeg") no-repeat center center;*/
           background-size: cover;
           /*position: absolute;*/
@@ -1345,7 +1437,8 @@ body {
           /*height: 400px;*/
         }
         .foundation-bg2 {
-          background: url("./foundation-image/1-1-slide2.jpeg")no-repeat center center;
+          background: url("./foundation-image/1-1-slide2.jpeg") no-repeat center
+            center;
           background-size: cover;
         }
         .slider-bar-container {
@@ -1372,7 +1465,7 @@ body {
             /*transform: translateX(-50%); !* X축으로 -50% 이동하여 중앙 정렬 *!*/
             width: 50%; /* 너비 설정 */
             height: 2px; /* 높이 설정 */
-            background: #FFFFFF; /* 배경색 설정 */
+            background: #ffffff; /* 배경색 설정 */
           }
         }
       }
@@ -1383,4 +1476,3 @@ body {
     }
   }
 }
-
