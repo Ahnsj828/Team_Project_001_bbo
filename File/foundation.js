@@ -246,23 +246,33 @@ document.addEventListener('DOMContentLoaded', function() {
   function checkScroll() {
     if (window.scrollY >= navTabsOffsetTop - header.offsetHeight) {
       navTabs.classList.add('fixed-nav-tabs');
-      // 여기서 'fixed-nav-tabs' 클래스는 navTabs를 헤더 아래에 고정시키는 스타일을 적용해야 함
     } else {
       navTabs.classList.remove('fixed-nav-tabs');
     }
     
     const isFixed = navTabs.classList.contains('fixed-nav-tabs');
     if (isFixed) {
-      // navTabs가 fixed 상태일 때만 스타일을 추가 또는 수정
-      // 예시로 추가한 클래스 'nav-tabs-fixed-style'을 적용
       navTabs.classList.add('nav-tabs-fixed-style');
     } else {
-      // fixed 상태가 아닐 때는 스타일을 제거
       navTabs.classList.remove('nav-tabs-fixed-style');
     }
   }
 
   window.addEventListener('scroll', checkScroll);
 });
+// 
+// 
+// 
+// 
+//  << foundation-banner-list - 배너에 글자들 >>
+const sloganList = document.getElementById("foundation-banner-list");
+const slogans = sloganList.getElementsByTagName("li");
+let bannerList = 0;
 
+function showNextSlogan() {
+  slogans[bannerList].style.display = "none";
+  bannerList = (bannerList + 1) % slogans.length;
+  slogans[bannerList].style.display = "list-item";
+}
 
+setInterval(showNextSlogan, 200); 
