@@ -276,3 +276,38 @@ function showNextSlogan() {
 }
 
 setInterval(showNextSlogan, 200); 
+// 
+// 
+// 
+// 
+//  < foundation-course-A - 슬라이드 slide >
+let fcCurrentIndex = 0;
+
+function switchFcSlide() {
+  const FcSlides = document.querySelectorAll('.slide-course');
+  fcCurrentIndex = (fcCurrentIndex + 1) % FcSlides.length;
+
+  FcSlides.forEach((slide, index) => {
+    slide.style.transform = `translateX(-${fcCurrentIndex * 100}%)`;
+  });
+}
+
+setInterval(switchFcSlide, 3000);
+// 
+// 
+// 
+// 
+//  < foundation-course-A-steps - 슬라이드 slide >
+let fcStepCurrentIndex = 0;
+
+function switchFcStepSlide() {
+  const FcStepSlides = document.querySelectorAll('.slide-course-step');
+  fcStepCurrentIndex = (fcStepCurrentIndex + 1) % FcStepSlides.length;
+
+  FcStepSlides.forEach((slide, index) => {
+    slide.style.transform = `translateX(-${fcStepCurrentIndex * 100}%)`;
+  });
+}
+
+setInterval(switchFcStepSlide, 3000);
+

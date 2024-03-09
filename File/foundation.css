@@ -13,6 +13,11 @@
   src: url("./font/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf")
     format("truetype");
 }
+@font-face {
+  font-family: "Amiri";
+  src: url("./font/converted-fonts/J7acnpd8CGxBHp2VkaY_zp4.ttf")
+    format("truetype");
+}
 /* font-family: "Noto Sans KR", sans-serif; */
 /* font-family: "Inter", sans-serif;  */
 
@@ -1154,9 +1159,6 @@ body {
 .foundation {
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   .foundation-bg {
     .foundation-bg-1920 {
       width: 100%;
@@ -1399,6 +1401,7 @@ body {
     }
   }
   .foundation-course {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1418,9 +1421,380 @@ body {
     }
     .foundation-course-type {
       .foundation-course-A {
+        display: flex;
+        width: 100%;
+        margin-bottom: 113px;
+        justify-content: center;
         .foundation-course-A-slide {
+          /* box-sizing: content-box; */
+          position: relative;
+          cursor: grab;
+          /* width: 600px; */
+          width: 37rem;
+          /* height: 733px; */
+          height: 45.6rem;
+          border-radius: 20px;
+          overflow: hidden;
+          display: flex;
+          align-items: center;
+          margin-right: 40px;
+          .foundation-course-A-slide-imgs {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            .slide-course {
+              flex: 0 0 100%;
+              height: 100%;
+              background-size: cover;
+              background-position: center;
+              transition: transform 0.5s ease;
+            }
+            .courseA1 {
+              background: url("./foundation-image/factory-slide1.png") no-repeat center
+              center;
+              background-size: cover;
+            }
+            .courseA2 {
+              background: url("./foundation-image/factory-slide2.png") no-repeat center
+              center;
+              background-size: cover;
+            }
+            .courseA3 {
+              background: url("./foundation-image/factory-slide3.png") no-repeat center
+              center;
+              background-size: cover;
+            }
+            .courseA4 {
+              background: url("./foundation-image/factory-slide4.png") no-repeat center
+              center;
+              background-size: cover;
+            }
+            .courseA5 {
+              background: url("./foundation-image/factory-slide5.png") no-repeat center
+              center;
+              background-size: cover;
+            }
+            .courseA6 {
+              background: url("./foundation-image/factory-slide6.png") no-repeat center
+              center;
+              background-size: cover;
+            }
+          }
+          .foundation-course-A-slide-steps {
+            /* border: 10px solid hotpink; */
+            position: absolute;
+            top: 50%;
+            right: 18px;
+            width: 100px;
+            height: 100px;
+            margin-top: -50px;
+            z-index: 100;
+
+            display: flex;
+
+            overflow: hidden;
+            .slide-course-step {
+              flex: 0 0 100%;
+              height: 100px;
+              background-size: cover;
+              background-position: center;
+              transition: transform 0.5s ease;
+            }
+            .stepA1 {
+              background: url("./foundation-image/slide-step1.png") no-repeat center center;
+              object-fit: cover;
+            }
+            .stepA2 {
+              background: url("./foundation-image/slide-step2.png") no-repeat center center;
+              object-fit: cover;
+            }
+            .stepA3 {
+              background: url("./foundation-image/slide-step3.png") no-repeat center center;
+              object-fit: cover;
+            }
+            .stepA4 {
+              background: url("./foundation-image/slide-step4.png") no-repeat center center;
+              object-fit: cover;
+            }
+            .stepA5 {
+              background: url("./foundation-image/slide-step5.png") no-repeat center center;
+              object-fit: cover;
+            }
+            .stepA6 {
+              background: url("./foundation-image/slide-step6.png") no-repeat center center;
+              object-fit: cover;
+            }
+          }
         }
         .foundation-course-A-content {
+          /* width: 781px; */
+          width: 48.5rem;
+          display: flex;
+          flex-direction: column;
+          .foundation-course-divider-h01 {
+            top: 0;
+            left: 0; 
+            width: 100%;
+            height: 1.5px;
+            background: #777777;
+            margin-bottom: 15px;
+          }
+          .foundation-course-A-titles {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            .foundation-course-A-title {
+              font: 700 30px/30px "Amiri";
+              letter-spacing: -0.6px;
+              color: #111111;
+              margin: 0 25px;
+            }
+            .foundation-course-A-title2 {
+              font: 500 21px/24px "Noto Sans KR", sans-serif;
+              letter-spacing: -0.42px;
+              color: #111111;
+              margin-right: 24px;
+            }
+            .foundation-course-A-title3 {
+              font: 400 21px/24px "sans-serif", sans-serif;
+              letter-spacing: -0.21px;
+              color: #d8a481;
+            }
+          }
+          .foundation-course-divider-h02 {
+            top: 0;
+            left: 0; 
+            width: 100%;
+            height: 1.5px;
+            background: #777777;
+            margin: 15px 0 12px 0;
+          }
+          .foundation-course-A-sub-a {
+            width: 100%;
+            height: auto;
+            display: flex;
+            .foundation-course-A-sub-a1 {
+              font: 400 18px/28.8px "Noto Sans KR", sans-serif;
+              letter-spacing: -0.36px;
+              color: #333333;
+              margin: 0 60px 0 48px;
+            }
+            .foundation-course-divider-v01 {
+              top: 0;
+              left: 0; 
+              width: 1.5px;
+              height: 28.781px;
+              background: #333333;
+              margin-right: 60px;
+            }
+            .foundation-course-A-sub-a2 {
+              font: 400 18px/28.8px "Noto Sans KR", sans-serif;
+              letter-spacing: -0.36px;
+              color: #333333;
+            }
+          }
+          .foundation-course-divider-h03 {
+            top: 0;
+            left: 0; 
+            width: 100%;
+            height: 1.5px;
+            background: #a6a6a6;
+            margin: 12px 0 12px 0;
+          }
+          .foundation-course-A-sub-b {
+            width: 100%;
+            height: auto;
+            display: flex;
+            .foundation-course-A-sub-b1 {
+              font: 400 18px/28.8px "Noto Sans KR", sans-serif;
+              letter-spacing: -0.36px;
+              color: #333333;
+              margin: 0 61px 0 41px;
+            }
+            .foundation-course-divider-v02 {
+              top: 0;
+              left: 0; 
+              width: 1.5px;
+              height: 28.781px;
+              background: #333333;
+              margin-right: 60px;
+            }
+            .foundation-course-A-sub-b2 {
+              font: 400 18px/28.8px "Noto Sans KR", sans-serif;
+              letter-spacing: -0.36px;
+              color: #333333;
+            }
+          }
+          .foundation-course-divider-h04 {
+            top: 0;
+            left: 0; 
+            width: 100%;
+            height: 1.5px;
+            background: #a6a6a6;
+            margin: 12px 0 20px 0;
+          }
+          .foundation-course-A-sub-c {
+            width: 100%;
+            height: auto;
+            display: flex;
+            .foundation-course-A-sub-c1{
+              width: 86.4px;
+              font: 400 18px/28.8px "Noto Sans KR", sans-serif;
+              letter-spacing: -0.36px;
+              color: #333333;
+              margin: 200px 55px 0 48px;
+            }
+            .foundation-course-divider-img1{
+              margin: 60px 50px 0 0;
+            }
+            .foundation-course-A-sub-d{
+              .foundation-course-A-sub-d1{
+                display: flex;
+                align-items: center;
+                margin-bottom: 12px;
+                .foundation-course-A-sub-d1-img{
+                  margin-right: 10px;
+                }
+                .foundation-course-A-sub-d1-text{
+                  margin-left: 16.5px;
+                  p:nth-child(1) {
+                    font: 500 16px/26px "Noto Sans KR", sans-serif;
+                    letter-spacing: -0.32px;
+                    color: #111;
+                  }
+                  p:nth-child(2) {
+                    font: 400 14px/23px "Noto Sans KR", sans-serif;
+                    letter-spacing: -0.28px;
+                    color: #333;
+                  }
+                }
+              }
+              .foundation-course-A-sub-d2{
+                display: flex;
+                align-items: center;
+                margin-bottom: 12px;
+                .foundation-course-A-sub-d2-img{
+                  margin-right: 10px;
+                }
+                .foundation-course-A-sub-d2-text{
+                  margin-left: 16.5px;
+                  p:nth-child(1) {
+                    font: 500 16px/26px "Noto Sans KR", sans-serif;
+                    letter-spacing: -0.32px;
+                    color: #111;
+                  }
+                  p:nth-child(2) {
+                    font: 400 14px/23px "Noto Sans KR", sans-serif;
+                    letter-spacing: -0.28px;
+                    color: #333;
+                  }
+                }
+              }
+              .foundation-course-A-sub-d3{
+                display: flex;
+                align-items: center;
+                margin-bottom: 12px;
+                .foundation-course-A-sub-d3-img{
+                  margin-right: 10px;
+                }
+                .foundation-course-A-sub-d3-text{
+                  width: 257.375px;
+                  margin-left: 16.5px;
+                  p:nth-child(1) {
+                    font: 500 16px/26px "Noto Sans KR", sans-serif;
+                    letter-spacing: -0.32px;
+                    color: #111;
+                  }
+                  p:nth-child(2) {
+                    width: 19rem;
+                    font: 400 14px/23px "Noto Sans KR", sans-serif;
+                    letter-spacing: -0.28px;
+                    color: #333;
+                    word-break: keep-all;
+                  }
+                }
+              }
+              .foundation-course-A-sub-d4{
+                display: flex;
+                align-items: center;
+                margin-bottom: 12px;
+                .foundation-course-A-sub-d4-img{
+                  margin-right: 10px;
+                }
+                .foundation-course-A-sub-d4-text{
+                  width: 257.375px;
+                  margin-left: 16.5px;
+                  p:nth-child(1) {
+                    font: 500 16px/26px "Noto Sans KR", sans-serif;
+                    letter-spacing: -0.32px;
+                    color: #111;
+                  }
+                  p:nth-child(2) {
+                    width: 20rem;
+                    font: 400 14px/23px "Noto Sans KR", sans-serif;
+                    letter-spacing: -0.28px;
+                    color: #333;
+                    word-break: keep-all;
+                  }
+                }
+              }
+              .foundation-course-A-sub-d5{
+                display: flex;
+                align-items: center;
+                margin-bottom: 12px;
+                .foundation-course-A-sub-d5-img{
+                  margin-right: 10px;
+                }
+                .foundation-course-A-sub-d5-text{
+                  width: 257.375px;
+                  margin-left: 16.5px;
+                  p:nth-child(1) {
+                    font: 500 16px/26px "Noto Sans KR", sans-serif;
+                    letter-spacing: -0.32px;
+                    color: #111;
+                  }
+                  p:nth-child(2) {
+                    font: 400 14px/23px "Noto Sans KR", sans-serif;
+                    letter-spacing: -0.28px;
+                    color: #333;
+                  }
+                  p:nth-child(3) {
+                    font: 400 14px/22px "Noto Sans KR", sans-serif;
+                    letter-spacing: -0.28px;
+                    color: #777;
+                    margin: 0 0 20px 8px;
+                  }
+                }
+              }
+              .foundation-course-A-sub-d6{
+                display: flex;
+                align-items: center;
+                margin-bottom: 12px;
+                .foundation-course-A-sub-d6-img{
+                  margin-right: 10px;
+                }
+                .foundation-course-A-sub-d6-text{
+                  width: 257.375px;
+                  margin-left: 16.5px;
+                  p:nth-child(1) {
+                    font: 500 16px/26px "Noto Sans KR", sans-serif;
+                    letter-spacing: -0.32px;
+                    color: #111;
+                  }
+                  p:nth-child(2) {
+                    width: 20rem;
+                    font: 400 14px/23px "Noto Sans KR", sans-serif;
+                    letter-spacing: -0.28px;
+                    color: #333;
+                    word-break: keep-all;
+                  }
+                }
+              }
+            }
+          }
         }
       }
       .foundation-course-B {
@@ -1431,9 +1805,8 @@ body {
         }
       }
     }
-  }
 }
-
+}
 /* header 완성되면 nav 변경하기 */
 /*-------- 1024px -------- */
 @media screen and (max-width: 1024px) {
@@ -1512,14 +1885,6 @@ body {
         display: none;
       }
       .foundation-bg-1024 {
-        /*display: flex;*/
-        /*position: absolute;*/
-        /*width: 100%;*/
-        /*height: 400px;*/
-        /*vertical-align: baseline;*/
-        /*cursor: grab;*/
-        /*overflow: hidden;*/
-        /**/
         display: flex;
         position: relative;
         width: 100%;
@@ -1537,15 +1902,7 @@ body {
           /*border: 10px solid #0f0;*/
           background: url("./foundation-image/1-1-slide1.jpeg") no-repeat center
             center;
-          /*background: url("./foundation-image/1-1-slide1.jpeg") no-repeat center center;*/
           background-size: cover;
-          /*position: absolute;*/
-          /*!* top: 100px; *!*/
-          /*left: 0;*/
-          /*!*width: 1003px;*!*/
-          /*!* width: 100%; *!*/
-          /*width: 995px;*/
-          /*height: 400px;*/
         }
         .foundation-bg2 {
           background: url("./foundation-image/1-1-slide2.jpeg") no-repeat center
@@ -1567,7 +1924,6 @@ body {
             height: 1px;
             background-color: #ddd;
           }
-
           .slide-bar {
             position: absolute;
             justify-content: center;
