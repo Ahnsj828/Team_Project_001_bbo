@@ -2445,18 +2445,15 @@ body {
   }
   #foundation-caution{
     /* width: 100%; */
-    width: 1420px;
+    /* width: 1420px; */
     display: flex; 
     flex-direction: column;
     align-items: left;
-
-    border: 1px solid #f00;
-    margin: 0 20px 40px 20px;
-    padding: 15px 10px 20px 10px;
-    
+    margin: 0 227.508px 70px 227.508px;
+    padding: 30px 45px;
+    background-color: #FAFAFA;
     .foundation-caution-title {
       display: flex;
-      /* flex-direction: row; */
       .foundation-caution-title-icon {
         margin-right: 5px;
       }
@@ -2466,8 +2463,80 @@ body {
         color: #111;
       }
     }
+    .foundation-caution-divider {
+      top: 0;
+      left: 0; 
+      width: 1330px;
+      height: 1.5px;
+      background: #777;
+      margin: 12px 0;
+    }
+    .foundation-caution-sub {
+      .foundation-caution-sub-list {
+        padding-left: 15px;
+        .foundation-caution-sub1 {
+          font: 400 14px/20px "Noto Sans KR", sans-serif;
+          letter-spacing: -0.28px;
+          color: #333;
+          margin-bottom: 8px;
+          position: relative;
+          &::before {
+            content: "·";
+            position: absolute;
+            left: -15px;
+          }
+        }
+        .foundation-caution-sub2 {
+          font: 400 14px/20px "Noto Sans KR", sans-serif;
+          letter-spacing: -0.28px;
+          color: #333;
+          margin-bottom: 8px;
+          position: relative;
+          &::before {
+            content: "·";
+            position: absolute;
+            left: -15px;
+          }
+        }
+        .foundation-caution-sub3 {
+          font: 400 14px/20px "Noto Sans KR", sans-serif;
+          letter-spacing: -0.28px;
+          color: #333;
+          margin-bottom: 8px;
+          position: relative;
+          &::before {
+            content: "·";
+            position: absolute;
+            left: -15px;
+          }
+        }
+        .foundation-caution-sub4 {
+          font: 400 14px/20px "Noto Sans KR", sans-serif;
+          letter-spacing: -0.28px;
+          color: #333;
+          margin-bottom: 8px;
+          position: relative;
+          &::before {
+            content: "·";
+            position: absolute;
+            left: -15px;
+          }
+        }
+        .foundation-caution-sub5 {
+          font: 400 14px/20px "Noto Sans KR", sans-serif;
+          letter-spacing: -0.28px;
+          color: #333;
+          margin-bottom: 8px;
+          position: relative;
+          &::before {
+            content: "·";
+            position: absolute;
+            left: -15px;
+          }
+        }
+      }
+    }
   }
-  
 }
 
 /* header 완성되면 nav 변경하기 */
