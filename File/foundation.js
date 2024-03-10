@@ -296,7 +296,7 @@ setInterval(switchFcSlide, 3000);
 // 
 // 
 // 
-//  < foundation-course-A-steps - 스탭 슬라이드 slide >
+//  < foundation-course-A-steps - 스텝 슬라이드 slide >
 let fcStepCurrentIndex = 0;
 
 function switchFcStepSlide() {
@@ -328,7 +328,7 @@ setInterval(switchFcSlideB, 3000);
 // 
 // 
 // 
-//  < foundation-course-B-steps - 스탭 슬라이드 slide >
+//  < foundation-course-B-steps - 스텝 슬라이드 slide >
 let fcStepCurrentIndexB = 0;
 
 function switchFcStepSlideB() {

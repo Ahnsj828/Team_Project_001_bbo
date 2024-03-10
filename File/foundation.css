@@ -2176,7 +2176,6 @@ body {
           justify-content: center;
           align-items: center;
           .foundation-6step-imgsA-1text {
-            border: 5px solid #f00;
             text-align: center; 
             display: flex;
             position: absolute;
@@ -2200,21 +2199,275 @@ body {
             &:hover h1 {
               opacity: 1;
             }
+            &:hover::after {
+              content: "";
+              /* display: block; */
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              transition: 0.3s;
+              background: rgba(17, 17, 17, 0.4);
+            }
           }
         }
-        .foundation-6step-imgsA-2 {}
-        .foundation-6step-imgsA-3 {}
+        .foundation-6step-imgsA-2 {
+          background: url("./foundation-image/5-2.jpg") center center / cover no-repeat;
+          position: relative;
+          margin-right: 0.3rem;
+          width: 29.5rem;
+          height: 22rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .foundation-6step-imgsA-2text {
+            text-align: center; 
+            display: flex;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            h1 {
+              font: 600 32px/35px "sofia-pro";
+              color: #fff;
+              text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+              opacity: 0;
+              transition: opacity 0.3s;
+              z-index: 2;
+            }
+            h1:nth-child(2) {
+              font-weight: 300;
+            }
+            &:hover h1 {
+              opacity: 1;
+            }
+            &:hover::after {
+              content: "";
+              /* display: block; */
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              transition: 0.3s;
+              background: rgba(17, 17, 17, 0.4);
+            }
+          }
+        }
+        .foundation-6step-imgsA-3 {
+          background: url("./foundation-image/5-3.jpg") center center / cover no-repeat;
+          position: relative;
+          margin-right: 0.3rem;
+          width: 29.5rem;
+          height: 22rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .foundation-6step-imgsA-3text {
+            text-align: center; 
+            display: flex;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            h1 {
+              font: 600 32px/35px "sofia-pro";
+              color: #fff;
+              text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+              opacity: 0;
+              transition: opacity 0.3s;
+              z-index: 2;
+            }
+            h1:nth-child(2) {
+              font-weight: 300;
+            }
+            &:hover h1 {
+              opacity: 1;
+            }
+            &:hover::after {
+              content: "";
+              /* display: block; */
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              transition: 0.3s;
+              background: rgba(17, 17, 17, 0.4);
+            }
+          }
+        }
       }
       .foundation-6step-imgsB {
         display: flex;
         justify-content: center;
         margin-bottom: 2.5px;
-        .foundation-6step-imgsB-4 {}
-        .foundation-6step-imgsB-5 {}
-        .foundation-6step-imgsB-6 {}
+        .foundation-6step-imgsB-4 {
+          background: url("./foundation-image/5-4.jpg") center center / cover no-repeat;
+          position: relative;
+          margin-right: 0.3rem;
+          width: 29.5rem;
+          height: 22rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .foundation-6step-imgsB-4text {
+            text-align: center; 
+            display: flex;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            h1 {
+              font: 600 32px/35px "sofia-pro";
+              color: #fff;
+              text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+              opacity: 0;
+              transition: opacity 0.3s;
+              z-index: 2;
+            }
+            h1:nth-child(2) {
+              font-weight: 300;
+            }
+            &:hover h1 {
+              opacity: 1;
+            }
+            &:hover::after {
+              content: "";
+              /* display: block; */
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              transition: 0.3s;
+              background: rgba(17, 17, 17, 0.4);
+            }
+          }
+        }
+        .foundation-6step-imgsB-5 {
+          background: url("./foundation-image/5-5.jpg") center center / cover no-repeat;
+          position: relative;
+          margin-right: 0.3rem;
+          width: 29.5rem;
+          height: 22rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .foundation-6step-imgsB-5text {
+            text-align: center; 
+            display: flex;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            h1 {
+              font: 600 32px/35px "sofia-pro";
+              color: #fff;
+              text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+              opacity: 0;
+              transition: opacity 0.3s;
+              z-index: 2;
+            }
+            h1:nth-child(2) {
+              font-weight: 300;
+            }
+            &:hover h1 {
+              opacity: 1;
+            }
+            &:hover::after {
+              content: "";
+              /* display: block; */
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              transition: 0.3s;
+              background: rgba(17, 17, 17, 0.4);
+            }
+          }
+        }
+        .foundation-6step-imgsB-6 {
+          background: url("./foundation-image/5-6.jpg") center center / cover no-repeat;
+          position: relative;
+          margin-right: 0.3rem;
+          width: 29.5rem;
+          height: 22rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .foundation-6step-imgsB-6text {
+            text-align: center; 
+            display: flex;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            h1 {
+              font: 600 32px/35px "sofia-pro";
+              color: #fff;
+              text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+              opacity: 0;
+              transition: opacity 0.3s;
+              z-index: 2;
+            }
+            h1:nth-child(2) {
+              font-weight: 300;
+            }
+            &:hover h1 {
+              opacity: 1;
+            }
+            &:hover::after {
+              content: "";
+              /* display: block; */
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              transition: 0.3s;
+              background: rgba(17, 17, 17, 0.4);
+            }
+          }
+        }
       }
     }
   }
+  #foundation-caution{
+    /* width: 100%; */
+    width: 1420px;
+    display: flex; 
+    flex-direction: column;
+    align-items: left;
+
+    border: 1px solid #f00;
+    margin: 0 20px 40px 20px;
+    padding: 15px 10px 20px 10px;
+    
+    .foundation-caution-title {
+      display: flex;
+      /* flex-direction: row; */
+      .foundation-caution-title-icon {
+        margin-right: 5px;
+      }
+      .foundation-caution-title-text {
+        font: 400 19px/30.4px "Noto Sans KR", sans-serif;
+        letter-spacing: -0.38px;
+        color: #111;
+      }
+    }
+  }
+  
 }
 
 /* header 완성되면 nav 변경하기 */
