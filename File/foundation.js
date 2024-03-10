@@ -280,7 +280,7 @@ setInterval(showNextSlogan, 200);
 // 
 // 
 // 
-//  < foundation-course-A - 슬라이드 slide >
+//  < foundation-course-A - 이미지 슬라이드 slide >
 let fcCurrentIndex = 0;
 
 function switchFcSlide() {
@@ -291,13 +291,12 @@ function switchFcSlide() {
     slide.style.transform = `translateX(-${fcCurrentIndex * 100}%)`;
   });
 }
-
 setInterval(switchFcSlide, 3000);
 // 
 // 
 // 
 // 
-//  < foundation-course-A-steps - 슬라이드 slide >
+//  < foundation-course-A-steps - 스탭 슬라이드 slide >
 let fcStepCurrentIndex = 0;
 
 function switchFcStepSlide() {
@@ -308,6 +307,36 @@ function switchFcStepSlide() {
     slide.style.transform = `translateX(-${fcStepCurrentIndex * 100}%)`;
   });
 }
-
 setInterval(switchFcStepSlide, 3000);
+// 
+// 
+// 
+// 
+//  < foundation-course-B - 슬라이드 slide >
+let fcCurrentIndexB = 0;
 
+function switchFcSlideB() {
+  const FcSlidesB = document.querySelectorAll('.slide-courseB');
+  fcCurrentIndexB = (fcCurrentIndexB + 1) % FcSlidesB.length;
+
+  FcSlidesB.forEach((slide, index) => {
+    slide.style.transform = `translateX(-${fcCurrentIndexB * 100}%)`;
+  });
+}
+setInterval(switchFcSlideB, 3000);
+// 
+// 
+// 
+// 
+//  < foundation-course-B-steps - 스탭 슬라이드 slide >
+let fcStepCurrentIndexB = 0;
+
+function switchFcStepSlideB() {
+  const FcStepSlidesB = document.querySelectorAll('.slide-course-stepB');
+  fcStepCurrentIndexB = (fcStepCurrentIndexB + 1) % FcStepSlidesB.length;
+
+  FcStepSlidesB.forEach((slide, index) => {
+    slide.style.transform = `translateX(-${fcStepCurrentIndexB * 100}%)`;
+  });
+}
+setInterval(switchFcStepSlideB, 3000);
