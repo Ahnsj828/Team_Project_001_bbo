@@ -1258,6 +1258,7 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     padding-bottom: 100px;
+    background-size: contain;
     .foundation-customized-left {
       display: flex;
       flex-wrap: wrap;
@@ -1378,12 +1379,13 @@ body {
     height: 565px;
     width: 100%;
     .foundation-banner-pc {
-      background: url("./foundation-image/img-foundation-banner-pc.jpg") center
+      background: url("./foundation-image/img-foundation-banner-pc.jpg") center 
         no-repeat;
-      width: 1420px;
+      width: 100%;
       height: inherit;
       display: flex;
       position: relative;
+      background-size: contain;
       .foundation-banner-slogan {
         position: absolute;
         top: 50%;
@@ -2132,7 +2134,10 @@ body {
       display: flex;
       flex-direction: column;
       align-content: center;
-      width: 1420px;
+      /* width: 1420px; */
+      width: 98%;
+      max-width: 1420px;
+      padding-left: 20px;
       .foundation-6step-text1 {
         text-align: center;
         width: 100%;
@@ -2161,12 +2166,19 @@ body {
       flex-direction: column;
       align-items: center;
       width: 1420px;
+      width: 100%;
+      max-width: 1420px;
       .foundation-6step-imgsA {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 2.5px;
+        display: flex; 
+        width: 100%;
+        height: calc(100% / 2);
+        justify-content: top;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 0.3rem;
         .foundation-6step-imgsA-1 {
           background: url("./foundation-image/5-1.jpg") center center / cover no-repeat;
+          background-size: contain;
           position: relative;
           margin-right: 0.3rem;
           width: 29.5rem;
@@ -2212,8 +2224,11 @@ body {
         }
         .foundation-6step-imgsA-2 {
           background: url("./foundation-image/5-2.jpg") center center / cover no-repeat;
+          background-size: contain;
           position: relative;
           margin-right: 0.3rem;
+          width: calc(100% / 3);
+          height: 22rem;
           width: 29.5rem;
           height: 22rem;
           display: flex;
@@ -2257,6 +2272,7 @@ body {
         }
         .foundation-6step-imgsA-3 {
           background: url("./foundation-image/5-3.jpg") center center / cover no-repeat;
+          background-size: contain;
           position: relative;
           margin-right: 0.3rem;
           width: 29.5rem;
@@ -2305,8 +2321,10 @@ body {
         display: flex;
         justify-content: center;
         margin-bottom: 2.5px;
+        width: 100%;
         .foundation-6step-imgsB-4 {
           background: url("./foundation-image/5-4.jpg") center center / cover no-repeat;
+          background-size: contain;
           position: relative;
           margin-right: 0.3rem;
           width: 29.5rem;
@@ -2352,6 +2370,7 @@ body {
         }
         .foundation-6step-imgsB-5 {
           background: url("./foundation-image/5-5.jpg") center center / cover no-repeat;
+          background-size: contain;
           position: relative;
           margin-right: 0.3rem;
           width: 29.5rem;
@@ -2397,6 +2416,7 @@ body {
         }
         .foundation-6step-imgsB-6 {
           background: url("./foundation-image/5-6.jpg") center center / cover no-repeat;
+          background-size: contain;
           position: relative;
           margin-right: 0.3rem;
           width: 29.5rem;
