@@ -1384,7 +1384,7 @@ body {
     height: 565px;
     width: 100%;
     .foundation-banner-pc {
-      background: url("./foundation-image/img-foundation-banner-pc.jpg") center
+      background: url("./foundation-image/img-foundation-banner-pc.jpg") center 
         no-repeat;
       width: 100%;
       height: inherit;
@@ -2153,7 +2153,10 @@ body {
       align-content: center;
       /* width: 1420px; */
       width: 98%;
+<<<<<<< HEAD
       height: 100%;
+=======
+>>>>>>> d9973296aaa9e201d3f5dc916d3a2d9478db9e8b
       max-width: 1420px;
       padding-left: 20px;
       .foundation-6step-text1 {
@@ -2186,20 +2189,31 @@ body {
       align-items: center;
       width: 1420px;
       width: 100%;
+<<<<<<< HEAD
       height: 100%;
       max-width: 1420px;
       .foundation-6step-imgsA {
         display: flex;
         width: 100%;
         height: 100%;
+=======
+      max-width: 1420px;
+      .foundation-6step-imgsA {
+        display: flex; 
+        width: 100%;
+>>>>>>> d9973296aaa9e201d3f5dc916d3a2d9478db9e8b
         height: calc(100% / 2);
         justify-content: top;
         align-items: center;
         justify-content: start;
         margin-bottom: 0.3rem;
         .foundation-6step-imgsA-1 {
+<<<<<<< HEAD
           background: url("./foundation-image/5-1.jpg") center center / cover
             no-repeat;
+=======
+          background: url("./foundation-image/5-1.jpg") center center / cover no-repeat;
+>>>>>>> d9973296aaa9e201d3f5dc916d3a2d9478db9e8b
           background-size: contain;
           position: relative;
           margin-right: 0.3rem;
@@ -2244,6 +2258,7 @@ body {
           }
         }
         .foundation-6step-imgsA-2 {
+<<<<<<< HEAD
           background: url("./foundation-image/5-2.jpg") center center / cover
             no-repeat;
           background-size: contain;
@@ -2251,6 +2266,12 @@ body {
           margin-right: 0.3rem;
           width: 33.3%;
           height: 21.4rem;
+=======
+          background: url("./foundation-image/5-2.jpg") center center / cover no-repeat;
+          background-size: contain;
+          position: relative;
+          margin-right: 0.3rem;
+>>>>>>> d9973296aaa9e201d3f5dc916d3a2d9478db9e8b
           width: calc(100% / 3);
           height: 22rem;
           width: 29.5rem;
@@ -2294,8 +2315,12 @@ body {
           }
         }
         .foundation-6step-imgsA-3 {
+<<<<<<< HEAD
           background: url("./foundation-image/5-3.jpg") center center / cover
             no-repeat;
+=======
+          background: url("./foundation-image/5-3.jpg") center center / cover no-repeat;
+>>>>>>> d9973296aaa9e201d3f5dc916d3a2d9478db9e8b
           background-size: contain;
           position: relative;
           margin-right: 0.3rem;
@@ -2348,8 +2373,12 @@ body {
         margin-bottom: 2.5px;
         width: 100%;
         .foundation-6step-imgsB-4 {
+<<<<<<< HEAD
           background: url("./foundation-image/5-4.jpg") center center / cover
             no-repeat;
+=======
+          background: url("./foundation-image/5-4.jpg") center center / cover no-repeat;
+>>>>>>> d9973296aaa9e201d3f5dc916d3a2d9478db9e8b
           background-size: contain;
           position: relative;
           margin-right: 0.3rem;
@@ -2396,8 +2425,12 @@ body {
           }
         }
         .foundation-6step-imgsB-5 {
+<<<<<<< HEAD
           background: url("./foundation-image/5-5.jpg") center center / cover
             no-repeat;
+=======
+          background: url("./foundation-image/5-5.jpg") center center / cover no-repeat;
+>>>>>>> d9973296aaa9e201d3f5dc916d3a2d9478db9e8b
           background-size: contain;
           position: relative;
           margin-right: 0.3rem;
@@ -2444,8 +2477,12 @@ body {
           }
         }
         .foundation-6step-imgsB-6 {
+<<<<<<< HEAD
           background: url("./foundation-image/5-6.jpg") center center / cover
             no-repeat;
+=======
+          background: url("./foundation-image/5-6.jpg") center center / cover no-repeat;
+>>>>>>> d9973296aaa9e201d3f5dc916d3a2d9478db9e8b
           background-size: contain;
           position: relative;
           margin-right: 0.3rem;
