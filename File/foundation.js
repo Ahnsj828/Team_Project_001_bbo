@@ -296,7 +296,6 @@ setInterval(switchFcSlide, 3000);
 //
 //
 //
-<<<<<<< HEAD
 //  << foundation-course-A-steps - 스텝 슬라이드 slide >>
 const sloganStepA = document.getElementById("Aslide-steps");
 const slogansA = sloganStepA.getElementsByTagName("div");
@@ -309,20 +308,6 @@ function showNextSloganA() {
 }
 
 setInterval(showNextSloganA, 3000);
-=======
-//  < foundation-course-A-steps - 스텝 슬라이드 slide >
-let fcStepCurrentIndex = 0;
-
-function switchFcStepSlide() {
-  const FcStepSlides = document.querySelectorAll(".slide-course-step");
-  fcStepCurrentIndex = (fcStepCurrentIndex + 1) % FcStepSlides.length;
-
-  FcStepSlides.forEach((slide) => {
-    slide.style.transform = `translateX(-${fcStepCurrentIndex * 100}%)`;
-  });
-}
-setInterval(switchFcStepSlide, 3000);
->>>>>>> 97b763d175d1ef981fc75a0206828d6a440581a2
 //
 //
 //
@@ -343,7 +328,6 @@ setInterval(switchFcSlideB, 3000);
 //
 //
 //
-<<<<<<< HEAD
 
 //  << foundation-course-B-steps - 스텝 슬라이드 slide >>
 const sloganStepB = document.getElementById("Bslide-steps");
@@ -357,17 +341,3 @@ function showNextSloganB() {
 }
 
 setInterval(showNextSloganB, 3000);
-=======
-//  < foundation-course-B-steps - 스텝 슬라이드 slide >
-let fcStepCurrentIndexB = 0;
-
-function switchFcStepSlideB() {
-  const FcStepSlidesB = document.querySelectorAll(".slide-course-stepB");
-  fcStepCurrentIndexB = (fcStepCurrentIndexB + 1) % FcStepSlidesB.length;
-
-  FcStepSlidesB.forEach((slide) => {
-    slide.style.transform = `translateX(-${fcStepCurrentIndexB * 100}%)`;
-  });
-}
-setInterval(switchFcStepSlideB, 3000);
->>>>>>> 97b763d175d1ef981fc75a0206828d6a440581a2
