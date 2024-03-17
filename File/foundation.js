@@ -296,18 +296,18 @@ setInterval(switchFcSlide, 3000);
 //
 //
 //
-//  < foundation-course-A-steps - 스텝 슬라이드 slide >
-let fcStepCurrentIndex = 0;
+//  << foundation-course-A-steps - 스텝 슬라이드 slide >>
+const sloganStepA = document.getElementById("Aslide-steps");
+const slogansA = sloganStepA.getElementsByTagName("div");
+let bannerListA = 0;
 
-function switchFcStepSlide() {
-  const FcStepSlides = document.querySelectorAll(".slide-course-step");
-  fcStepCurrentIndex = (fcStepCurrentIndex + 1) % FcStepSlides.length;
-
-  FcStepSlides.forEach((slide) => {
-    slide.style.transform = `translateX(-${fcStepCurrentIndex * 100}%)`;
-  });
+function showNextSloganA() {
+  slogansA[bannerListA].style.display = "none";
+  bannerListA = (bannerListA + 1) % slogansA.length;
+  slogansA[bannerListA].style.display = "list-item";
 }
-setInterval(switchFcStepSlide, 3000);
+
+setInterval(showNextSloganA, 3000);
 //
 //
 //
@@ -328,15 +328,16 @@ setInterval(switchFcSlideB, 3000);
 //
 //
 //
-//  < foundation-course-B-steps - 스텝 슬라이드 slide >
-let fcStepCurrentIndexB = 0;
 
-function switchFcStepSlideB() {
-  const FcStepSlidesB = document.querySelectorAll(".slide-course-stepB");
-  fcStepCurrentIndexB = (fcStepCurrentIndexB + 1) % FcStepSlidesB.length;
+//  << foundation-course-B-steps - 스텝 슬라이드 slide >>
+const sloganStepB = document.getElementById("Bslide-steps");
+const slogansB = sloganStepB.getElementsByTagName("div");
+let bannerListB = 0;
 
-  FcStepSlidesB.forEach((slide) => {
-    slide.style.transform = `translateX(-${fcStepCurrentIndexB * 100}%)`;
-  });
+function showNextSloganB() {
+  slogansB[bannerListB].style.display = "none";
+  bannerListB = (bannerListB + 1) % slogansB.length;
+  slogansB[bannerListB].style.display = "list-item";
 }
-setInterval(switchFcStepSlideB, 3000);
+
+setInterval(showNextSloganB, 3000);
