@@ -1389,7 +1389,7 @@ body {
     /* height: 33%; */
     width: 100%;
     .foundation-banner-pc {
-      background: url("./foundation-image/img-foundation-banner-pc.jpg") center 
+      background: url("./foundation-image/img-foundation-banner-pc.jpg") center
         no-repeat;
       width: 100%;
       width: 88rem;
@@ -2513,8 +2513,8 @@ body {
       /* height: 33%; */
       width: 100%;
       .foundation-banner-pc {
-        background: url("./foundation-image/img-foundation-banner-pc.jpg") center 
-          no-repeat;
+        background: url("./foundation-image/img-foundation-banner-pc.jpg")
+          center no-repeat;
         width: 100%;
         width: 88rem;
         /* height: 35.3rem; */
@@ -2592,28 +2592,28 @@ body {
                 transition: transform 0.5s ease;
               }
               .courseA1 {
-                background: url("./foundation-image/factory-slide1.png") no-repeat
-                  center center;
+                background: url("./foundation-image/factory-slide1.png")
+                  no-repeat center center;
               }
               .courseA2 {
-                background: url("./foundation-image/factory-slide2.png") no-repeat
-                  center center;
+                background: url("./foundation-image/factory-slide2.png")
+                  no-repeat center center;
               }
               .courseA3 {
-                background: url("./foundation-image/factory-slide3.png") no-repeat
-                  center center;
+                background: url("./foundation-image/factory-slide3.png")
+                  no-repeat center center;
               }
               .courseA4 {
-                background: url("./foundation-image/factory-slide4.png") no-repeat
-                  center center;
+                background: url("./foundation-image/factory-slide4.png")
+                  no-repeat center center;
               }
               .courseA5 {
-                background: url("./foundation-image/factory-slide5.png") no-repeat
-                  center center;
+                background: url("./foundation-image/factory-slide5.png")
+                  no-repeat center center;
               }
               .courseA6 {
-                background: url("./foundation-image/factory-slide6.png") no-repeat
-                  center center;
+                background: url("./foundation-image/factory-slide6.png")
+                  no-repeat center center;
               }
             }
             .foundation-course-A-slide-steps {
@@ -2971,20 +2971,20 @@ body {
                 transition: transform 0.5s ease;
               }
               .courseB1 {
-                background: url("./foundation-image/factory-slide1.png") no-repeat
-                  center center;
+                background: url("./foundation-image/factory-slide1.png")
+                  no-repeat center center;
               }
               .courseB2 {
-                background: url("./foundation-image/factory-slide2.png") no-repeat
-                  center center;
+                background: url("./foundation-image/factory-slide2.png")
+                  no-repeat center center;
               }
               .courseB3 {
-                background: url("./foundation-image/factory-slide4.png") no-repeat
-                  center center;
+                background: url("./foundation-image/factory-slide4.png")
+                  no-repeat center center;
               }
               .courseB4 {
-                background: url("./foundation-image/factory-slide6.png") no-repeat
-                  center center;
+                background: url("./foundation-image/factory-slide6.png")
+                  no-repeat center center;
               }
             }
             .foundation-course-B-slide-steps {
@@ -3642,8 +3642,8 @@ body {
       align-items: center;
       width: 100%;
       .foundation-banner-pc {
-        background: url("./foundation-image/img-foundation-banner-pc.jpg") center 
-          no-repeat;
+        background: url("./foundation-image/img-foundation-banner-pc.jpg")
+          center no-repeat;
         width: 100%;
         width: 88rem;
         aspect-ratio: 16 / 6.4;
@@ -4001,7 +4001,8 @@ body {
             .A1024-1::before {
               content: "";
               position: absolute;
-              background: url("./foundation-image/slide-step1.png")center / contain no-repeat;
+              background: url("./foundation-image/slide-step1.png") center /
+                contain no-repeat;
               z-index: 10;
               top: 268px;
               left: 1px;
@@ -4011,7 +4012,8 @@ body {
             .A1024-2::before {
               content: "";
               position: absolute;
-              background: url("./foundation-image/slide-step2.png")center / contain no-repeat;
+              background: url("./foundation-image/slide-step2.png") center /
+                contain no-repeat;
               z-index: 10;
               top: 268px;
               left: 1px;
@@ -4021,7 +4023,8 @@ body {
             .A1024-3::before {
               content: "";
               position: absolute;
-              background: url("./foundation-image/slide-step3.png")center / contain no-repeat;
+              background: url("./foundation-image/slide-step3.png") center /
+                contain no-repeat;
               z-index: 10;
               top: 268px;
               left: 1px;
@@ -4031,7 +4034,8 @@ body {
             .A1024-4::before {
               content: "";
               position: absolute;
-              background: url("./foundation-image/slide-step4.png")center / contain no-repeat;
+              background: url("./foundation-image/slide-step4.png") center /
+                contain no-repeat;
               z-index: 10;
               top: 268px;
               left: 1px;
@@ -4041,7 +4045,8 @@ body {
             .A1024-5::before {
               content: "";
               position: absolute;
-              background: url("./foundation-image/slide-step5.png")center / contain no-repeat;
+              background: url("./foundation-image/slide-step5.png") center /
+                contain no-repeat;
               z-index: 10;
               top: 268px;
               left: 1px;
@@ -4051,7 +4056,8 @@ body {
             .A1024-6::before {
               content: "";
               position: absolute;
-              background: url("./foundation-image/slide-step6.png")center / contain no-repeat;
+              background: url("./foundation-image/slide-step6.png") center /
+                contain no-repeat;
               z-index: 10;
               top: 268px;
               left: 1px;
@@ -4328,7 +4334,8 @@ body {
             .B1024-1::before {
               content: "";
               position: absolute;
-              background: url("./foundation-image/slide-step1.png")center / contain no-repeat;
+              background: url("./foundation-image/slide-step1.png") center /
+                contain no-repeat;
               z-index: 10;
               top: 268px;
               left: 1px;
@@ -4338,7 +4345,8 @@ body {
             .B1024-2::before {
               content: "";
               position: absolute;
-              background: url("./foundation-image/slide-step2.png")center / contain no-repeat;
+              background: url("./foundation-image/slide-step2.png") center /
+                contain no-repeat;
               z-index: 10;
               top: 268px;
               left: 1px;
@@ -4348,7 +4356,8 @@ body {
             .B1024-3::before {
               content: "";
               position: absolute;
-              background: url("./foundation-image/slide-step3.png")center / contain no-repeat;
+              background: url("./foundation-image/slide-step3.png") center /
+                contain no-repeat;
               z-index: 10;
               top: 268px;
               left: 1px;
@@ -4358,7 +4367,8 @@ body {
             .B1024-4::before {
               content: "";
               position: absolute;
-              background: url("./foundation-image/slide-step4.png")center / contain no-repeat;
+              background: url("./foundation-image/slide-step4.png") center /
+                contain no-repeat;
               z-index: 10;
               top: 268px;
               left: 1px;
@@ -4407,108 +4417,70 @@ body {
         .foundation-6step-text3 {
           text-align: right;
           width: 100%;
+          font: 400 15px/24px "Noto Sans KR", sans-serif;
+          letter-spacing: -0.3px;
           color: #333;
-          font-size: 15px;
-          font-weight: 400;
           margin-bottom: 5px;
-          padding: 0  24px 0 20px;
+          padding: 0 24px 0 20px;
         }
       }
       .foundation-6step-imgs {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 1024px;
-        width: 100%;
-        height: 100%;
-        margin: 0 20px 70px 20px;
-        padding: 0;
-        .foundation-6step-imgsA,
-        .foundation-6step-imgsB {
-          display: flex;
-          max-width: 1420px;
-          width: 100%;
-          height: calc(100% / 2);
-          margin-bottom: 0.3rem;
-          justify-content: center;
-          background-size: cover;
-          .foundation-6step-imgsA-1,
-          .foundation-6step-imgsA-2,
-          .foundation-6step-imgsA-3,
-          .foundation-6step-imgsB-4,
-          .foundation-6step-imgsB-5,
-          .foundation-6step-imgsB-6 {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 33.3%;
-            width: 29.5rem;
-            aspect-ratio: 16 / 12;
-            margin-right: 0.3rem;
-            .foundation-6step-imgs-text {
-              text-align: center;
-              display: flex;
-              position: absolute;
-              width: 100%;
-              height: 100%;
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-content: center;
-              h1 {
-                font: 600 32px/35px "sofia-pro";
-                color: #fff;
-                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                opacity: 0;
-                transition: opacity 0.3s;
-                z-index: 2;
-              }
-              h1:nth-child(2) {
-                font-weight: 300;
-              }
-              &:hover h1 {
-                opacity: 1;
-              }
-              &:hover::after {
-                content: "";
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                transition: 0.3s;
-                background: rgba(17, 17, 17, 0.4);
-              }
-            }
-          }
-          .foundation-6step-imgsA-1 {
-            background: url("./foundation-image/5-1.jpg") center center / cover
-              no-repeat;
-          }
-          .foundation-6step-imgsA-2 {
-            background: url("./foundation-image/5-2.jpg") center center / cover
-              no-repeat;
-          }
-          .foundation-6step-imgsA-3 {
-            background: url("./foundation-image/5-3.jpg") center center / cover
-              no-repeat;
-          }
-          .foundation-6step-imgsB-4 {
-            background: url("./foundation-image/5-4.jpg") center center / cover
-              no-repeat;
-          }
-          .foundation-6step-imgsB-5 {
-            background: url("./foundation-image/5-5.jpg") center center / cover
-              no-repeat;
-          }
-          .foundation-6step-imgsB-6 {
-            background: url("./foundation-image/5-6.jpg") center center / cover
-              no-repeat;
-          }
-        }
+        display: none;
       }
       .foundation-6step-imgs-1024px {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0px 20px 70px 20px;
+        padding: 0px 0px 0px 0px;
+        .step-imgs-1024px-A,
+        .step-imgs-1024px-B,
+        .step-imgs-1024px-C {
+          display: flex;
+          flex-direction: row;
+          width: calc(100% - 40px);
+        }
+        .step-imgs-1024px-1,
+        .step-imgs-1024px-3,
+        .step-imgs-1024px-5 {
+          width: 50%;
+          aspect-ratio: 1 / 1;
+          margin-right: 2.5px;
+          margin-bottom: 2.5px;
+        }
+        .step-imgs-1024px-2,
+        .step-imgs-1024px-4,
+        .step-imgs-1024px-6 {
+          width: 50%;
+          aspect-ratio: 1 / 1;
+          margin-bottom: 2.5px;
+        }
+        .step-imgs-1024px-1 {
+          background: url("./foundation-image/1-6.jpg") center center / cover
+            no-repeat;
+        }
+        .step-imgs-1024px-2 {
+          background: url("./foundation-image/1-7.jpg") center center / cover
+            no-repeat;
+        }
+        .step-imgs-1024px-3 {
+          background: url("./foundation-image/1-8.jpg") center center / cover
+            no-repeat;
+        }
+        .step-imgs-1024px-4 {
+          background: url("./foundation-image/1-9.jpg") center center / cover
+            no-repeat;
+        }
+        .step-imgs-1024px-5 {
+          background: url("./foundation-image/1-10.jpg") center center / cover
+            no-repeat;
+        }
+        .step-imgs-1024px-6 {
+          background: url("./foundation-image/1-11.jpg") center center / cover
+            no-repeat;
+        }
       }
     }
     #foundation-caution {
@@ -4516,9 +4488,9 @@ body {
       flex-direction: column;
       align-items: left;
       border-radius: 4px;
-      margin: 0 0 70px 0;
-      padding: 30px 45px;
-      max-width: 1420px;
+      margin: 0 20px 40px 20px;
+      padding: 15px 10px 20px 10px;
+      max-width: 1024px;
       width: 96%;
       background-color: #fafafa;
       .foundation-caution-title {
@@ -4537,9 +4509,9 @@ body {
         top: 0;
         left: 0;
         width: 100%;
-        height: 1.5px;
+        height: 1px;
         background: #777;
-        margin: 12px 0;
+        margin: 12px 12px;
       }
       .foundation-caution-sub {
         .foundation-caution-sub-list {
