@@ -280,6 +280,22 @@ setInterval(showNextSlogan, 200);
 //
 //
 //
+//  << foundation-banner-768px-list - 배너에 글자들(768px) >>
+const sloganList768 = document.getElementById("foundation-banner-768px-list");
+const slogans768 = sloganList768.getElementsByTagName("li");
+let bannerList768 = 0;
+
+function showNextSlogan() {
+  slogans768[bannerList768].style.display = "none";
+  bannerList768 = (bannerList768 + 1) % slogans768.length;
+  slogans768[bannerList768].style.display = "list-item";
+}
+
+setInterval(showNextSlogan, 200);
+//
+//
+//
+//
 //  < foundation-course-A - 이미지 슬라이드 slide >
 let fcCurrentIndex = 0;
 

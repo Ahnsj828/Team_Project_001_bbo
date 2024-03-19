@@ -1420,6 +1420,9 @@ body {
       }
     }
   }
+  .foundation-banner-768px{
+    display: none;
+  }
   .foundation-course {
     width: 100%;
     display: flex;
@@ -2549,6 +2552,9 @@ body {
           }
         }
       }
+    }
+    .foundation-banner-768px{
+      display: none;
     }
     .foundation-course {
       display: flex;
@@ -3684,6 +3690,9 @@ body {
           }
         }
       }
+    }
+    .foundation-banner-768px{
+      display: none;
     }
     .foundation-course {
       display: flex;
@@ -4914,33 +4923,35 @@ body {
       }
     }
     .foundation-banner {
+      display: none;
+    }
+    .foundation-banner-768px{
+      position: relative;
       display: flex;
       justify-content: center;
-      align-items: center;
-      width: 100%;
-      .foundation-banner-pc {
-        background: url("./foundation-image/img-foundation-banner-pc.jpg")
-          center no-repeat;
-        width: 100%;
-        width: 88rem;
-        aspect-ratio: 16 / 6.4;
+      align-items: flex-start; 
+      width: 100%;   
+      .foundation-banner-768px-slogan {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 320px;
+        align-content: flex-start; 
+        z-index: 5;       
+        li {
+          font: 500 20px/24px "Subway";
+          letter-spacing: -0.02em;
+          color: #fff;
+          display: none;
+        }
+      }
+      .foundation-banner-768px-img {
         display: flex;
-        position: relative;
-        background-size: cover;
-        .foundation-banner-slogan {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          width: 750px;
-          width: 600px;
-          align-content: flex-start;
-          li {
-            font: 500 36px/44px "Subway";
-            letter-spacing: -0.02em;
-            color: #fff;
-            display: none;
-          }
+        justify-content: flex-start;
+        overflow-x: auto;
+        img {
+          width: 906px;
         }
       }
     }
@@ -4948,19 +4959,20 @@ body {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      max-width: 100%;
+      /* max-width: 1420px; */
       width: 100%;
       .foundation-course-texts {
-        padding: 24px 16px 16px 21px;
+        padding: 0;
+        margin: 45px 16px 18px 21px;
         display: block;
         .foundation-course-text1 {
-          font: 500 24px/35px "Noto Sans KR", sans-serif;
-          letter-spacing: -0.48px;
+          font: 500 20px/22px "Noto Sans KR", sans-serif;
+          letter-spacing: -0.4px;
           color: #111;
         }
         .foundation-course-text2 {
-          font: 700 18px/20px "sofia";
-          letter-spacing: -0.36px;
+          font: 700 16px/18px "sofia";
+          letter-spacing: -0.32px;
           color: #d8a481;
         }
       }
@@ -4972,41 +4984,44 @@ body {
           justify-content: flex-start;
           max-width: 100%;
           width: 100%;
-          margin-bottom: 7rem;
+          margin-bottom: 60px;
           .foundation-course-A-slide {
             display: none;
           }
           .foundation-course-A-content {
+            display: flex;
+            flex-direction: column;
             width: 48.5rem;
             width: 98%;
             height: 100%;
-            display: flex;
-            flex-direction: column;
-            padding-left: 20px;
+            padding: 0 15px 18px 15px;
             .foundation-course-divider-h01 {
               top: 0;
               left: 0;
               width: 100%;
+              height: 2px;
               background: #777777;
               margin-bottom: 11px;
             }
             .foundation-course-A-titles {
-              width: 100%;
-              height: auto;
               display: flex;
               flex-direction: row;
               align-items: baseline;
+              width: 100%;
+              height: auto;
               .foundation-course-A-title {
-                font: 700 26px/27px "Amiri";
-                letter-spacing: -0.6px;
+                font: bold 24px/21px "Amiri";
+                letter-spacing: -0.48px;
                 color: #111111;
-                margin: 0 14px 0 20px;
+                margin: 0 11px 0 14px;
+                margin-top: 3px;
+                padding-top: 1px;
               }
               .foundation-course-A-title2 {
-                font: 500 19px/24px "Noto Sans KR", sans-serif;
-                letter-spacing: -0.42px;
+                font: 600 17px/24px "Noto Sans KR", sans-serif;
+                letter-spacing: -0.34px;
                 color: #111111;
-                margin-right: 24px;
+                margin: 0;
               }
               .foundation-course-A-title3 {
                 display: none;
@@ -5016,91 +5031,97 @@ body {
               top: 0;
               left: 0;
               width: 100%;
-              height: 1.5px;
+              height: 2px;
               background: #777777;
-              margin: 10px 0 10px 0;
+              margin: 11px 0 11px 0;
             }
             .foundation-course-A-sub-a {
               width: 100%;
               height: auto;
               display: flex;
+              align-items: center;
               .foundation-course-A-sub-a1 {
-                font: 400 16px/25.6px "Noto Sans KR", sans-serif;
-                letter-spacing: -0.32px;
+                font: 400 14px/20px "Noto Sans KR", sans-serif;
+                letter-spacing: -0.28px;
                 color: #333333;
-                margin: 0 40px 0 36px;
+                margin: 0 17px 0 14px;
                 word-spacing: 3px;
+                align-self: center;
               }
               .foundation-course-divider-v01 {
                 top: 0;
                 left: 0;
-                width: 0.75px;
-                height: 28.793px;
-                background: #333333;
-                margin-right: 40px;
+                width: 0.63px;
+                height: 19.38px;
+                background: #333;
+                margin-right: 26px;
               }
               .foundation-course-A-sub-a2 {
-                font: 400 16px/25.6px "Noto Sans KR", sans-serif;
-                letter-spacing: -0.32px;
-                color: #333333;
+                font: 400 14px/16px "Noto Sans KR", sans-serif;
+                letter-spacing: -0.28px;
+                color: #333;
+                align-self: center;
               }
             }
             .foundation-course-divider-h03 {
               top: 0;
               left: 0;
               width: 100%;
-              height: 1px;
+              height: 0.63px;
               background: #a6a6a6;
-              margin: 10px 0 10px 0;
+              margin: 12px 0 11px 0;
             }
             .foundation-course-A-sub-b {
               width: 100%;
               height: auto;
               display: flex;
+              align-items: center;
               .foundation-course-A-sub-b1 {
-                font: 400 16px/25.6px "Noto Sans KR", sans-serif;
-                letter-spacing: -0.32px;
+                font: 400 14px/20px "Noto Sans KR", sans-serif;
+                letter-spacing: -0.28px;
                 color: #333333;
-                margin: 0 40px 0 36px;
+                margin: 0 17px 0 14px;
                 word-spacing: 3px;
+                align-self: center;
               }
               .foundation-course-divider-v02 {
                 top: 0;
                 left: 0;
-                width: 0.75px;
-                height: 28.793px;
-                background: #333333;
-                margin-right: 40px;
+                width: 0.63px;
+                height: 19.38px;
+                background: #333;
+                margin-right: 26px;
               }
               .foundation-course-A-sub-b2 {
-                font: 400 16px/25.6px "Noto Sans KR", sans-serif;
-                letter-spacing: -0.32px;
-                color: #333333;
+                font: 400 14px/16px "Noto Sans KR", sans-serif;
+                letter-spacing: -0.28px;
+                color: #333;
+                align-self: center;
               }
             }
             .foundation-course-divider-h04 {
               top: 0;
               left: 0;
               width: 100%;
-              height: 1px;
+              height: 0.63px;
               background: #a6a6a6;
-              margin: 10px 0 10px 0;
+              margin: 12px 0 11px 0;
             }
             .foundation-course-A-sub-c {
               width: 100%;
               height: auto;
               display: flex;
-              margin-bottom: 40px;
+              margin-bottom: 0;
               .foundation-course-A-sub-c1 {
                 display: block;
-                font: 400 16px/25.6px "Noto Sans KR", sans-serif;
-                letter-spacing: -0.32px;
-                color: #333333;
-                margin: 0 40px 0 36px;
+                font: 400 14px/20px "Noto Sans KR", sans-serif;
+                letter-spacing: -0.28px;
+                color: #333;
+                margin: 0 14px 0 14px;
                 word-spacing: 3px;
               }
               .foundation-course-divider-img1 {
-                margin: 6px 0 0 0;
+                margin: 7px 0 0 0;
                 .foundation-course-divider-img1-1920px {
                   display: none;
                 }
@@ -5110,7 +5131,7 @@ body {
               }
               .foundation-course-A-sub-d {
                 width: auto;
-                margin-left: 34px;
+                margin-left: 22px;
                 .foundation-course-A-sub-d1 {
                   display: flex;
                   align-items: center;
@@ -5239,8 +5260,8 @@ body {
           }
           .foundation-course-A-1024px {
             display: flex;
-            padding-bottom: 40px;
-            margin: 0 20px;
+            padding-bottom: 0;
+            margin: 0 15px 16px 15px;
             width: calc(270px * 6 + 25px);
             .A1024-1,
             .A1024-2,
@@ -5251,10 +5272,9 @@ body {
               position: relative;
               width: 270px;
               margin-right: 5px;
-              overflow: hidden;
+              overflow-x: hidden;
               img {
                 width: 100%;
-                width: 270px;
                 object-fit: cover;
                 border-radius: 4px;
               }
@@ -5268,7 +5288,7 @@ body {
                   color: #111;
                 }
                 p:nth-child(2) {
-                  margin-bottom: 3px;
+                  margin-bottom: 0;
                   font: 400 14px/20px "Noto Sans KR", sans-serif;
                   letter-spacing: -0.28px;
                   color: #333;
@@ -5350,41 +5370,44 @@ body {
           max-width: 100%;
           width: 100%;
           margin: 0;
-          padding: 0 0 40px 0;
+          padding: 0 0 60px 0;
           .foundation-course-B-slide {
             display: none;
           }
           .foundation-course-B-content {
+            display: flex;
+            flex-direction: column;
             width: 48.5rem;
             width: 98%;
             height: 100%;
-            display: flex;
-            flex-direction: column;
-            padding-left: 20px;
+            padding: 0 15px 18px 15px;
             .foundation-course-divider-h01 {
               top: 0;
               left: 0;
               width: 100%;
+              height: 2px;
               background: #777777;
               margin-bottom: 11px;
             }
             .foundation-course-B-titles {
-              width: 100%;
-              height: auto;
               display: flex;
               flex-direction: row;
               align-items: baseline;
+              width: 100%;
+              height: auto;
               .foundation-course-B-title {
-                font: 700 26px/27px "Amiri";
-                letter-spacing: -0.6px;
+                font: bold 24px/21px "Amiri";
+                letter-spacing: -0.48px;
                 color: #111111;
-                margin: 0 14px 0 20px;
+                margin: 0 11px 0 14px;
+                margin-top: 3px;
+                padding-top: 1px;
               }
               .foundation-course-B-title2 {
-                font: 500 19px/24px "Noto Sans KR", sans-serif;
-                letter-spacing: -0.42px;
+                font: 600 17px/24px "Noto Sans KR", sans-serif;
+                letter-spacing: -0.34px;
                 color: #111111;
-                margin-right: 24px;
+                margin: 0;
               }
               .foundation-course-B-title3 {
                 display: none;
@@ -5394,91 +5417,97 @@ body {
               top: 0;
               left: 0;
               width: 100%;
-              height: 1.5px;
+              height: 2px;
               background: #777777;
-              margin: 10px 0 10px 0;
+              margin: 11px 0 11px 0;
             }
             .foundation-course-B-sub-a {
               width: 100%;
               height: auto;
               display: flex;
+              align-items: center;
               .foundation-course-B-sub-a1 {
-                font: 400 16px/25.6px "Noto Sans KR", sans-serif;
-                letter-spacing: -0.32px;
+                font: 400 14px/20px "Noto Sans KR", sans-serif;
+                letter-spacing: -0.28px;
                 color: #333333;
-                margin: 0 40px 0 36px;
+                margin: 0 17px 0 14px;
                 word-spacing: 3px;
+                align-self: center;
               }
               .foundation-course-divider-v01 {
                 top: 0;
                 left: 0;
-                width: 0.75px;
-                height: 28.793px;
-                background: #333333;
-                margin-right: 40px;
+                width: 0.63px;
+                height: 19.38px;
+                background: #333;
+                margin-right: 26px;
               }
               .foundation-course-B-sub-a2 {
-                font: 400 16px/25.6px "Noto Sans KR", sans-serif;
-                letter-spacing: -0.32px;
-                color: #333333;
+                font: 400 14px/16px "Noto Sans KR", sans-serif;
+                letter-spacing: -0.28px;
+                color: #333;
+                align-self: center;
               }
             }
             .foundation-course-divider-h03 {
               top: 0;
               left: 0;
               width: 100%;
-              height: 1px;
+              height: 0.63px;
               background: #a6a6a6;
-              margin: 10px 0 10px 0;
+              margin: 12px 0 11px 0;
             }
             .foundation-course-B-sub-b {
               width: 100%;
               height: auto;
               display: flex;
+              align-items: center;
               .foundation-course-B-sub-b1 {
-                font: 400 16px/25.6px "Noto Sans KR", sans-serif;
-                letter-spacing: -0.32px;
+                font: 400 14px/20px "Noto Sans KR", sans-serif;
+                letter-spacing: -0.28px;
                 color: #333333;
-                margin: 0 40px 0 36px;
+                margin: 0 17px 0 14px;
                 word-spacing: 3px;
+                align-self: center;
               }
               .foundation-course-divider-v02 {
                 top: 0;
                 left: 0;
-                width: 0.75px;
-                height: 28.793px;
-                background: #333333;
-                margin-right: 40px;
+                width: 0.63px;
+                height: 19.38px;
+                background: #333;
+                margin-right: 26px;
               }
               .foundation-course-B-sub-b2 {
-                font: 400 16px/25.6px "Noto Sans KR", sans-serif;
-                letter-spacing: -0.32px;
-                color: #333333;
+                font: 400 14px/16px "Noto Sans KR", sans-serif;
+                letter-spacing: -0.28px;
+                color: #333;
+                align-self: center;
               }
             }
             .foundation-course-divider-h04 {
               top: 0;
               left: 0;
               width: 100%;
-              height: 1px;
+              height: 0.63px;
               background: #a6a6a6;
-              margin: 10px 0 10px 0;
+              margin: 12px 0 11px 0;
             }
             .foundation-course-B-sub-c {
               width: 100%;
               height: auto;
               display: flex;
-              margin-bottom: 40px;
+              margin-bottom: 0;
               .foundation-course-B-sub-c1 {
                 display: block;
-                font: 400 16px/25.6px "Noto Sans KR", sans-serif;
-                letter-spacing: -0.32px;
-                color: #333333;
-                margin: 0 40px 0 36px;
+                font: 400 14px/20px "Noto Sans KR", sans-serif;
+                letter-spacing: -0.28px;
+                color: #333;
+                margin: 0 14px 0 14px;
                 word-spacing: 3px;
               }
               .foundation-course-divider-img1 {
-                margin: 6px 0 0 0;
+                margin: 7px 0 0 0;
                 .foundation-course-divider-img1-1920px {
                   display: none;
                 }
@@ -5488,7 +5517,7 @@ body {
               }
               .foundation-course-B-sub-d {
                 width: auto;
-                margin-left: 34px;
+                margin-left: 22px;
                 .foundation-course-B-sub-d1 {
                   display: flex;
                   align-items: center;
@@ -5574,8 +5603,8 @@ body {
           }
           .foundation-course-B-1024px {
             display: flex;
-            padding-bottom: 40px;
-            margin: 0 20px;
+            padding-bottom: 0;
+            margin: 0 15px 16px 15px;
             width: calc(270px * 6 + 25px);
             .B1024-1,
             .B1024-2,
@@ -5584,10 +5613,9 @@ body {
               position: relative;
               width: 270px;
               margin-right: 5px;
-              overflow: hidden;
+              overflow-x: hidden;
               img {
                 width: 100%;
-                width: 270px;
                 object-fit: cover;
                 border-radius: 4px;
               }
@@ -5601,7 +5629,7 @@ body {
                   color: #111;
                 }
                 p:nth-child(2) {
-                  margin-bottom: 3px;
+                  margin-bottom: 0;
                   font: 400 14px/20px "Noto Sans KR", sans-serif;
                   letter-spacing: -0.28px;
                   color: #333;
@@ -5660,8 +5688,9 @@ body {
       display: none;
     }
     .foundation-6steps {
-      margin: 0 0 0 0;
-      max-width: 1024px;
+      padding-top: 24px;
+      margin-bottom: 60px;
+      /* max-width: 767px; */
       width: 100%;
       height: 100%;
       display: flex;
@@ -5676,29 +5705,29 @@ body {
         height: 100%;
         padding-left: 0;
         .foundation-6step-text1 {
-          padding: 24px 20px 0 20px;
+          padding: 0 16px 0 21px;
           text-align: left;
           width: 100%;
-          font: 500 24px/38.4px "Noto Sans KR", sans-serif;
-          letter-spacing: -0.48px;
+          font: 500 20px/22px "Noto Sans KR", sans-serif;
+          letter-spacing: -0.4px;
           color: #111;
         }
         .foundation-6step-text2 {
-          padding: 0 20px 8px 20px;
+          padding: 0 16px 0 21px;
           text-align: left;
           width: 100%;
-          font: 700 18px/20px "Noto Sans KR", sans-serif;
-          letter-spacing: -0.36px;
+          font: 700 16px/18px "Noto Sans KR", sans-serif;
+          letter-spacing: -0.32px;
           color: #d8a481;
         }
         .foundation-6step-text3 {
           text-align: right;
           width: 100%;
-          font: 400 15px/24px "Noto Sans KR", sans-serif;
-          letter-spacing: -0.3px;
+          font: 400 10px/14px "Noto Sans KR", sans-serif;
+          letter-spacing: -0.2px;
           color: #333;
           margin-bottom: 5px;
-          padding: 0 24px 0 20px;
+          padding: 0 4px 0 0;
         }
       }
       .foundation-6step-imgs {
@@ -5710,14 +5739,14 @@ body {
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin: 0px 20px 70px 20px;
-        padding: 0px 0px 0px 0px;
+        margin: 0;
+        padding: 0;
         .step-imgs-1024px-A,
         .step-imgs-1024px-B,
         .step-imgs-1024px-C {
           display: flex;
           flex-direction: row;
-          width: calc(100% - 40px);
+          width: 100%;
         }
         .step-imgs-1024px-1,
         .step-imgs-1024px-3,
@@ -5765,92 +5794,118 @@ body {
       flex-direction: column;
       align-items: left;
       border-radius: 4px;
-      margin: 0 20px 40px 20px;
-      padding: 15px 10px 20px 10px;
-      max-width: 1024px;
-      width: 96%;
+      /* margin: 0 20px 40px 20px;
+      padding: 15px 10px 20px 10px; */
+      margin: 10px 11px 40px 11px;
+      padding: 8px 10px 20px 10px;
+      max-width: 768px;
+      width: 100%;
+      width: calc(100% - 22px);
       background-color: #fafafa;
       .foundation-caution-title {
         display: flex;
         .foundation-caution-title-icon {
           margin-right: 5px;
+          height: 40px;
         }
         .foundation-caution-title-text {
-          font: 400 19px/30.4px "Noto Sans KR", sans-serif;
-          letter-spacing: -0.38px;
+          font: 400 16px/25.6px "Noto Sans KR", sans-serif;
+          letter-spacing: -0.32px;
           color: #111;
-          margin-top: 4px;
+          margin-top: 0px;
+          align-self: center;
         }
       }
       .foundation-caution-divider {
         top: 0;
         left: 0;
         width: 100%;
-        height: 1px;
-        background: #777;
-        margin: 12px 12px;
+        height: 0.63px;
+        background: #c1c1c1;
+        margin: 0;
       }
       .foundation-caution-sub {
         .foundation-caution-sub-list {
-          padding-left: 15px;
+          padding-left: 0;
+          margin-top: 13px;
           .foundation-caution-sub1 {
-            font: 400 14px/20px "Noto Sans KR", sans-serif;
-            letter-spacing: -0.28px;
+            position: relative;
+            font: 400 12px/17px "Noto Sans KR", sans-serif;
+            letter-spacing: normal;
             color: #333;
             margin-bottom: 8px;
-            position: relative;
+            margin-right: 3px;
+            padding-left: 15px;
+            padding-right: 3px;
             &::before {
               content: "·";
               position: absolute;
-              left: -15px;
+              top: -1px;
+              left: 4px;
             }
           }
           .foundation-caution-sub2 {
-            font: 400 14px/20px "Noto Sans KR", sans-serif;
-            letter-spacing: -0.28px;
+            position: relative;
+            font: 400 12px/17px "Noto Sans KR", sans-serif;
+            letter-spacing: normal;
             color: #333;
             margin-bottom: 8px;
-            position: relative;
+            margin-right: 3px;
+            padding-left: 15px;
+            padding-right: 3px;
             &::before {
               content: "·";
               position: absolute;
-              left: -15px;
+              top: -1px;
+              left: 4px;
             }
           }
           .foundation-caution-sub3 {
-            font: 400 14px/20px "Noto Sans KR", sans-serif;
-            letter-spacing: -0.28px;
+            position: relative;
+            font: 400 12px/17px "Noto Sans KR", sans-serif;
+            letter-spacing: normal;
             color: #333;
             margin-bottom: 8px;
-            position: relative;
+            margin-right: 3px;
+            padding-left: 15px;
+            padding-right: 3px;
             &::before {
               content: "·";
               position: absolute;
-              left: -15px;
+              top: -1px;
+              left: 4px;
             }
           }
           .foundation-caution-sub4 {
-            font: 400 14px/20px "Noto Sans KR", sans-serif;
-            letter-spacing: -0.28px;
+            position: relative;
+            font: 400 12px/17px "Noto Sans KR", sans-serif;
+            letter-spacing: normal;
             color: #333;
             margin-bottom: 8px;
-            position: relative;
+            margin-right: 3px;
+            padding-left: 15px;
+            padding-right: 3px;
             &::before {
               content: "·";
               position: absolute;
-              left: -15px;
+              top: -1px;
+              left: 4px;
             }
           }
           .foundation-caution-sub5 {
-            font: 400 14px/20px "Noto Sans KR", sans-serif;
-            letter-spacing: -0.28px;
+            position: relative;
+            font: 400 12px/17px "Noto Sans KR", sans-serif;
+            letter-spacing: normal;
             color: #333;
             margin-bottom: 8px;
-            position: relative;
+            margin-right: 3px;
+            padding-left: 15px;
+            padding-right: 3px;
             &::before {
               content: "·";
               position: absolute;
-              left: -15px;
+              top: -1px;
+              left: 4px;
             }
           }
         }
