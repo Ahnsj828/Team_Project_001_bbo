@@ -2386,6 +2386,7 @@ body {
   }
 }
 
+/*-------- 1440px -------- */
 @media screen and (max-width: 1440px) {
   .foundation-body {
     width: 100%;
@@ -4610,7 +4611,7 @@ body {
 }
 
 /* header 완성되면 nav 변경하기 */
-/*-------- 1024px -------- */
+/*-------- 768px -------- */
 @media screen and (max-width: 768px) {
   .common-header {
     .common-header-wrap {
@@ -5915,7 +5916,7 @@ body {
 }
 
 /* header 완성되면 nav 변경하기 */
-/*-------- 1024px -------- */
+/*-------- 390px -------- */
 @media screen and (max-width: 390px) {
   .common-header {
     .common-header-wrap {
@@ -6090,7 +6091,7 @@ body {
             display: block;
             font: 400 14px/20px "Noto Sans KR", sans-serif;
             letter-spacing: -0.28px;
-            color: #333333;
+            color: #333;
           }
           .foundation-customized-text3-1920px {
             display: none;
@@ -6118,9 +6119,9 @@ body {
               width: 36px;
               height: 22px;
               justify-content: center;
-              align-items: center;
+              align-items: flex-end;
               svg {
-                width: 22px;
+                width: 17px;
                 height: auto;
                 font: 400 14px/22.4px;
                 color: #777;
@@ -6129,15 +6130,18 @@ body {
             }
             .foundation-customized-list {
               padding-left: 9px;
+              align-self: center;
               .foundation-customized-title {
                 font: 500 15px/24px "Noto Sans KR", sans-serif;
                 letter-spacing: -0.3px;
                 vertical-align: baseline;
                 margin-right: 20px;
+                color: #333;
               }
               .foundation-customized-sub {
                 font: 400 14px/22.4px "Noto Sans KR", sans-serif;
                 letter-spacing: -0.28px;
+                color: #111;
               }
             }
           }
@@ -6169,9 +6173,6 @@ body {
           }
         }
       }
-      /* .foundation-customized-png-max1024 {
-        display: none;
-      } */
     }
     .foundation-course-gif-1024px {
       display: flex;
@@ -6240,12 +6241,12 @@ body {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 320px;
+        width: 330px;
         align-content: flex-start; 
         z-index: 5;       
         li {
           font: 500 20px/24px "Subway";
-          letter-spacing: -0.02em;
+          letter-spacing: -0.4px;
           color: #fff;
           display: none;
         }
@@ -6263,9 +6264,10 @@ body {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      /* max-width: 1420px; */
       width: 100%;
       .foundation-course-texts {
+        display: flex;
+        justify-content: center;
         padding: 0;
         margin: 45px 16px 18px 21px;
         display: block;
@@ -6304,7 +6306,7 @@ body {
               left: 0;
               width: 100%;
               height: 2px;
-              background: #777777;
+              background: #333;
               margin-bottom: 11px;
             }
             .foundation-course-A-titles {
@@ -6317,7 +6319,7 @@ body {
                 font: bold 24px/21px "Amiri";
                 letter-spacing: -0.48px;
                 color: #111111;
-                margin: 0 11px 0 14px;
+                margin: 0 14px 0 11px;
                 margin-top: 3px;
                 padding-top: 1px;
               }
