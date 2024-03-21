@@ -285,13 +285,13 @@ const sloganList768 = document.getElementById("foundation-banner-768px-list");
 const slogans768 = sloganList768.getElementsByTagName("li");
 let bannerList768 = 0;
 
-function showNextSlogan() {
+function showNextSlogan768() {
   slogans768[bannerList768].style.display = "none";
   bannerList768 = (bannerList768 + 1) % slogans768.length;
   slogans768[bannerList768].style.display = "list-item";
 }
 
-setInterval(showNextSlogan, 200);
+setInterval(showNextSlogan768, 200);
 //
 //
 //
