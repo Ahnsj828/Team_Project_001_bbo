@@ -4938,8 +4938,18 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
         width: 330px;
+<<<<<<< HEAD
         align-content: flex-start;
         z-index: 5;
+=======
+<<<<<<< HEAD
+        align-content: flex-start;
+        z-index: 5;
+=======
+        align-content: flex-start; 
+        z-index: 5;       
+>>>>>>> 0d51835c565eaa71256e0950638ea9572950645b
+>>>>>>> refs/remotes/origin/main
         li {
           font: 500 20px/24px "Subway";
           letter-spacing: -0.02em;
@@ -6242,8 +6252,18 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
         width: 330px;
+<<<<<<< HEAD
         align-content: flex-start;
         z-index: 5;
+=======
+<<<<<<< HEAD
+        align-content: flex-start;
+        z-index: 5;
+=======
+        align-content: flex-start; 
+        z-index: 5;       
+>>>>>>> 0d51835c565eaa71256e0950638ea9572950645b
+>>>>>>> refs/remotes/origin/main
         li {
           font: 500 20px/24px "Subway";
           letter-spacing: -0.4px;
@@ -6319,7 +6339,16 @@ body {
                 font: bold 24px/21px "Amiri";
                 letter-spacing: -0.48px;
                 color: #111111;
+<<<<<<< HEAD
                 margin: 3px 14px 0 11px;
+=======
+<<<<<<< HEAD
+                margin: 3px 14px 0 11px;
+=======
+                margin: 0 14px 0 11px;
+                margin-top: 3px;
+>>>>>>> 0d51835c565eaa71256e0950638ea9572950645b
+>>>>>>> refs/remotes/origin/main
                 padding-top: 1px;
               }
               .foundation-course-A-title2 {
